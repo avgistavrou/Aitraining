@@ -296,7 +296,7 @@ Create a reusable prompt template for a recurring task in your work.
 **Requirements:**
 
 1. Identify a task you perform >5 times/month
-2. Create a template with `{VARIABLES}` for customization
+2. Create a template with `{VARIABLES}` for customisation
 3. Document usage instructions
 4. Test with 3 different examples
 
@@ -521,7 +521,7 @@ ___________
 
 ---
 
-### Workflow Optimization Template
+### Workflow Optimisation Template
 
 **Person 1's workflow:**
 
@@ -531,7 +531,7 @@ ___________
 - Time: ___
 - Pain points: ___________
 
-**Group's optimized approach:**
+**Group's optimised approach:**
 - Strategy used: ___________
 - New query count: ___
 - Expected time: ___
@@ -543,7 +543,7 @@ ___________
 
 ### Group Presentation
 
-**Best optimization:** ___________
+**Best optimisation:** ___________
 
 **Strategies used:**
 1. ___________
@@ -557,7 +557,7 @@ ___________
 
 ---
 
-## Bonus Exercise: The Extreme Optimization Challenge
+## Bonus Exercise: The Extreme Optimisation Challenge
 
 !!! danger "HARD MODE"
     **For advanced participants only**
@@ -566,7 +566,7 @@ ___________
 
 **Given:** The most bloated, inefficient AI workflow in the room
 
-**Constraint:** Optimize to achieve >90% reduction in tokens
+**Constraint:** Optimise to achieve >90% reduction in tokens
 
 **Requirements:**
 - Maintain output quality
@@ -586,7 +586,7 @@ Team with highest % reduction wins:
 | ___ | ___ | ___ | ___ |
 | ___ | ___ | ___ | ___ |
 
-**Prize:** "Optimization Master" badge + bragging rights
+**Prize:** "Optimisation Master" badge + bragging rights
 
 ---
 
@@ -596,7 +596,7 @@ After completing exercises, consider:
 
 1. **Tool selection:** Did you choose the right tool (NLM vs LLM) for each task?
 2. **Efficiency gains:** What was your average % improvement in token usage?
-3. **Quality trade-offs:** Did any optimizations reduce output quality?
+3. **Quality trade-offs:** Did any optimisations reduce output quality?
 4. **Practical adoption:** Which strategies will you implement in daily work?
 5. **Team impact:** How can your team collectively reduce environmental footprint?
 
@@ -606,7 +606,7 @@ After completing exercises, consider:
 
 At the end of Day 3-4, we'll discuss:
 
-- Most effective optimization strategies
+- Most effective optimisation strategies
 - Common challenges in implementation
 - Real-world time savings achieved
 - Environmental impact reduction
@@ -616,7 +616,7 @@ At the end of Day 3-4, we'll discuss:
 
 ## Action Plan
 
-Based on exercises, create your personal optimization action plan:
+Based on exercises, create your personal optimisation action plan:
 
 **This week:**
 1. ___________

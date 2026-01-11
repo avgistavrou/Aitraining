@@ -1,8 +1,8 @@
 site_name: AmaDema AI Training Programme
 site_description: Prompt Engineering for Material Scientists
 site_author: Avgi Stavrou
-repo_url: https://github.com/avgistavrou/amadema-aitraining
-repo_name: avgistavrou/amadema-aitraining
+repo_url: https://github.com/avgistavrou/Aitraining
+repo_name: avgistavrou/Aitraining
 
 theme:
   name: material
@@ -119,9 +119,9 @@ plugins:
   - search
   - tags
 
-copyright: Copyright &copy; 2025 AmaDema - All Rights Reserved
+copyright: Copyright &copy; 2026 AmaDema - All Rights Reserved
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/avgistavrou/amadema-aitraining
+      link: https://github.com/avgistavrou/Aitraining

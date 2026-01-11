@@ -34,7 +34,7 @@ The most powerful tool in conversational learning is deceptively simple: **askin
 
 ### Level 5: Transfer
 
-**Question:** "Why is this principle generalizable?"  
+**Question:** "Why is this principle generalisable?"  
 **Answer:** Meta-understanding  
 **Depth:** Expert
 
@@ -106,7 +106,7 @@ underlying mechanisms."
 
 **Example:**
 ```
-"You explained how to optimize PLA electrospinning. Why would the 
+"You explained how to optimise PLA electrospinning. Why would the 
 same principles apply (or not apply) to PCL? What's universal vs. 
 material-specific?"
 ```
@@ -246,10 +246,10 @@ Start by asking me what problem I'm trying to solve and why.
 ### Example Dialogue
 
 ```
-You: "How do I optimize electrospinning parameters?"
+You: "How do I optimise electrospinning parameters?"
 
-AI: "Before we discuss optimization, what problem are you experiencing 
-with your current parameters? What makes you think they need optimization?"
+AI: "Before we discuss optimisation, what problem are you experiencing 
+with your current parameters? What makes you think they need optimisation?"
 
 You: "Fiber diameter is inconsistent"
 

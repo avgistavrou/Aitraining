@@ -43,7 +43,7 @@ Understanding decision-making processes is at the heart of conversational learni
 
 ## Mindset Shift Framework
 
-| From → | To → |
+| From  | To  |
 |--------|------|
 | **Efficiency Mindset** | **Learning Mindset** |
 | "Just tell me what to do" | "Help me understand why this works" |
