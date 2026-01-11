@@ -1,0 +1,14 @@
+image: python:3.12-slim
+
+pages:
+  stage: deploy
+  rules:
+    - if: $CI_COMMIT_BRANCH
+  before_script:
+    - python -V
+    - pip install --no-cache-dir -r requirements.txt
+  script:
+    - mkdocs build --strict --site-dir public
+  artifacts:
+    paths:
+      - public
