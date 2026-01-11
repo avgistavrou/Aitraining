@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: amadema-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0:11434
+    restart: unless-stopped
+    networks:
+      - amadema-network
+
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: amadema-webui
+    ports:
+      - "3000:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - WEBUI_AUTH=true
+      - WEBUI_NAME=AmaDema AI Sandbox
+      - ENABLE_ADMIN_EXPORT=true
+    volumes:
+      - webui_data:/app/backend/data
+    depends_on:
+      - ollama
+    restart: unless-stopped
+    networks:
+      - amadema-network
+
+volumes:
+  ollama_data:
+  webui_data:
+
+networks:
+  amadema-network:
+    driver: bridge

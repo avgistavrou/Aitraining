@@ -1,0 +1,120 @@
+/* AmaDema Brand Colours: White, Red, Black */
+
+:root {
+  --amadema-red: #e31e24;
+  --amadema-black: #1a1a1a;
+  --amadema-white: #ffffff;
+  --amadema-grey: #f5f5f5;
+  --amadema-red-dark: #b71c1c;
+}
+
+/* Header customisation */
+.md-header {
+  background-color: var(--amadema-black);
+}
+
+.md-header__title {
+  font-weight: 600;
+  color: var(--amadema-white);
+}
+
+/* Primary accent colour */
+.md-typeset a {
+  color: var(--amadema-red);
+}
+
+.md-typeset a:hover {
+  color: var(--amadema-red-dark);
+}
+
+/* Buttons */
+.md-button--primary {
+  background-color: var(--amadema-red);
+  border-color: var(--amadema-red);
+  color: var(--amadema-white);
+}
+
+.md-button--primary:hover {
+  background-color: var(--amadema-red-dark);
+  border-color: var(--amadema-red-dark);
+}
+
+/* Admonitions - Warning boxes */
+.md-typeset .admonition.warning {
+  border-color: var(--amadema-red);
+}
+
+.md-typeset .admonition.warning > .admonition-title {
+  background-color: rgba(227, 30, 36, 0.1);
+  border-color: var(--amadema-red);
+}
+
+/* Code blocks */
+.md-typeset code {
+  background-color: var(--amadema-grey);
+  color: var(--amadema-black);
+}
+
+/* Navigation active items */
+.md-nav__item--active > .md-nav__link {
+  color: var(--amadema-red);
+}
+
+/* Tables */
+.md-typeset table:not([class]) th {
+  background-color: var(--amadema-black);
+  color: var(--amadema-white);
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: rgba(227, 30, 36, 0.05);
+}
+
+/* Checklist items */
+.md-typeset .task-list-item input[type="checkbox"]:checked + .task-list-indicator::before {
+  background-color: var(--amadema-red);
+}
+
+/* Custom classes for emphasis */
+.red-emphasis {
+  color: var(--amadema-red);
+  font-weight: 600;
+}
+
+.black-box {
+  background-color: var(--amadema-black);
+  color: var(--amadema-white);
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+/* Footer */
+.md-footer {
+  background-color: var(--amadema-black);
+}
+
+.md-footer-meta {
+  background-color: var(--amadema-red);
+}
+
+/* Search highlighting */
+.md-search-result__article--document .md-search-result__title {
+  color: var(--amadema-black);
+}
+
+.md-search-result__item:hover {
+  background-color: rgba(227, 30, 36, 0.1);
+}
+
+/* Horizontal rules */
+.md-typeset hr {
+  border-color: var(--amadema-red);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title {
+    background-color: var(--amadema-black);
+  }
+}
