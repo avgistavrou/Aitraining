@@ -63,6 +63,7 @@ AI: [Explains transferable principles]
 **Purpose:** Understand methodology
 
 **Examples:**
+
 - "Walk me through your thinking process for structuring that summary"
 - "What steps did you follow to reach this conclusion?"
 - "How did you prioritise these factors over others?"
@@ -90,6 +91,7 @@ choose between solution casting and electrospinning?"
 **Purpose:** Understand rationale and assumptions
 
 **Examples:**
+
 - "What makes this approach better than alternatives?"
 - "What assumptions underlie your recommendation?"
 - "Why did you emphasise this particular aspect?"
@@ -116,6 +118,7 @@ conditions would you suggest starting at 1% or 5% instead?"
 **Purpose:** Explore solution space and trade-offs
 
 **Examples:**
+
 - "What other approaches did you consider?"
 - "How would this change in different contexts?"
 - "What would you do if [constraint] existed?"

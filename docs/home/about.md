@@ -10,7 +10,7 @@ This programme differs from generic AI training in three fundamental ways:
 
 ### 1. Materials Science Focus
 
-Every example, exercise, and framework application is tailored to the specific needs of materials scientists and nanotechnology researchers. You won't find generic "write an email" prompts here—instead, you'll learn to:
+Every example, exercise, and framework application is tailored to the specific needs of materials scientists and nanotechnology researchers. You won't find generic "write an email" prompts here, instead, you'll learn to:
 
 - Extract polymer synthesis parameters from literature
 - Analyse tensile testing data for non-oxide ceramics
@@ -28,7 +28,7 @@ We operate under the principle that **access to AI tools does not require data e
 
 ### 3. Environmental Consciousness
 
-AI is not free—computationally or environmentally. This course treats **Green AI** as a core operational requirement, not an optional consideration. You'll understand the carbon cost of your queries and learn to optimise for both quality and sustainability.
+AI is not free; computationally or environmentally. This course treats **Green AI** as a core operational requirement, not an optional consideration. You'll understand the carbon cost of your queries and learn to optimise for both quality and sustainability.
 
 ---
 
@@ -65,10 +65,8 @@ Highly interactive sessions including:
 
 ### 📦 Take-Home Resources
 
-- GitHub repository with all course materials
 - Downloadable PDFs of frameworks and cheat sheets
 - Template prompts for common R&D tasks
-- Setup guides for local model deployment
 
 ---
 
@@ -76,7 +74,7 @@ Highly interactive sessions including:
 
 **Format:** 4-day intensive workshop (1.5 hours per day)  
 **Target Audience:** Material Scientists and R&D staff  
-**Prerequisites:** None—presumes no prior AI experience  
+**Prerequisites:** None, presumes no prior AI experience  
 **Environment:** Hands-on with local sandbox (no installation required)
 
 ### Session Breakdown
@@ -92,9 +90,10 @@ Highly interactive sessions including:
 
 In alignment with our institutional principles of transparency, the following AI tools were used in the development of these materials:
 
-- **Claude (Sonnet 4)** – Content structuring, framework adaptation to materials science context
 - **ChatGPT (GPT-4)** – Generation of synthetic datasets for exercises
+- **Claude (Sonnet 4)** – Content structuring, framework adaptation to materials science context
 - **Microsoft Copilot** – Document formatting and quality assurance
+
 
 All technical content has been independently verified, and AI-generated examples have been validated against materials science best practices.
 
@@ -105,7 +104,9 @@ All technical content has been independently verified, and AI-generated examples
 For queries related to this course, technical issues, or suggestions for improvement:
 
 **Contact:** Avgi Stavrou  
-**Repository:** [github.com/avgistavrou/amadema-aitraining](https://github.com/avgistavrou/amadema-aitraining)
+**Email:** [Avgi Stavrou](avgi.stavrou.22@gmail.com)
+**AMA** [Ask Me Anything](../ama.md)
+
 
 ---
 

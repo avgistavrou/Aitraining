@@ -51,7 +51,7 @@ nav:
     - LLM Tools: fundamentals/llm-tools.md
     - Context Matters: fundamentals/context-matters.md
   
-  - Day 1 - Foundation & AUTOMAT:
+  - Day 1:
     - Overview: day1/overview.md
     - Introduction to Prompt Engineering: day1/intro-prompt-engineering.md
     - The AUTOMAT Framework: day1/automat-framework.md
@@ -59,20 +59,20 @@ nav:
     - Responsible AI & Risk Management: day1/responsible-ai.md
     - Exercises: day1/exercises.md
   
-  - Day 2 - Context & CO-STAR:
+  - Day 2:
     - Overview: day2/overview.md
     - Context Deep Dive: day2/context-deep-dive.md
     - CO-STAR Framework: day2/costar-framework.md
     - Exercises: day2/exercises.md
   
-  - Day 3 - Technical Understanding & Green AI:
+  - Day 3:
     - Overview: day3/overview.md
     - NLMs vs LLMs: day3/nlms-vs-llms.md
     - Green AI Introduction: day3/green-ai-intro.md
     - Environmental Impact: day3/environmental-impact.md
     - Exercises: day3/exercises.md
   
-  - Day 4 - Mastery & Integration:
+  - Day 4:
     - Overview: day4/overview.md
     - Optimisation Strategies: day4/optimisation.md
     - Advanced Conversational Learning: day4/advanced-conversational.md
@@ -87,7 +87,7 @@ nav:
     - Red List: resources/red-list.md
     - External Resources: resources/external.md
   
-  - Ask Me Anything: ama.md
+  - AMA: ama.md
   - FAQ: faq.md
   
   - Summary: summary.md

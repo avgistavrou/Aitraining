@@ -48,6 +48,7 @@ Task: Extract synthesis parameters from attached 20 papers on
 PLA/graphene nanocomposites.
 
 Output: Markdown table with columns:
+
 - Paper (Author Year)
 - Synthesis Method
 - Temperature (°C)
@@ -56,6 +57,7 @@ Output: Markdown table with columns:
 - Yield (%)
 
 Constraints:
+
 - If parameter not reported, mark "NR"
 - Only include electrospinning methods
 - Convert all temperatures to Celsius
@@ -74,11 +76,13 @@ Tone: Technical, data-focused
 ### Efficiency Gains
 
 **Before prompt engineering:**
+
 - Literature review: 8 hours → 2 hours (75% reduction)
 - Protocol formatting: 30 min/protocol → 5 min (83% reduction)
 - Experimental design brainstorming: 2 hours → 30 min (75% reduction)
 
 **After prompt engineering:**
+
 - Same quality or better
 - Reproducible workflows
 - Template libraries for recurring tasks
@@ -88,6 +92,7 @@ Tone: Technical, data-focused
 ### Quality Improvements
 
 **Structured prompts lead to:**
+
 - ✅ Consistent output format
 - ✅ Fewer hallucinations (explicit constraints)
 - ✅ Verifiable results (cite sources, show calculations)
@@ -98,6 +103,7 @@ Tone: Technical, data-focused
 ### IP Protection
 
 **Prompt engineering includes security:**
+
 - Know what data to never share (Red List)
 - Sanitise sensitive information before processing
 - Use local models for confidential work
@@ -140,6 +146,7 @@ You'll identify new applications, teach frameworks to colleagues, and innovate p
 The AUTOMAT framework gives you a **systematic method** for crafting scientific prompts.
 
 **Seven components** that ensure complete specification:
+
 1. Audience
 2. User Persona
 3. Task
@@ -203,6 +210,7 @@ The AUTOMAT framework gives you a **systematic method** for crafting scientific 
 ### Misconception 4: "Prompt engineering replaces expertise"
 
 **Reality:** Prompt engineering **amplifies** your expertise. You still need domain knowledge to:
+
 - Identify what questions to ask
 - Verify outputs for accuracy
 - Spot hallucinations
@@ -217,6 +225,7 @@ The AUTOMAT framework gives you a **systematic method** for crafting scientific 
 **You already think like a prompt engineer!**
 
 **Scientific method:**
+
 1. Define hypothesis (Task)
 2. Design experiment (Method)
 3. Specify measurements (Output)
@@ -224,6 +233,7 @@ The AUTOMAT framework gives you a **systematic method** for crafting scientific 
 5. Document rigorously (Format)
 
 **Prompt engineering:**
+
 1. Define task
 2. Specify method
 3. Define output format

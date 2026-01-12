@@ -126,6 +126,7 @@ Include 10-15 entries, sorted by yield (descending).
 **Critical for scientific accuracy.**
 
 Define:
+
 - **What to include** (whitelisting)
 - **What to exclude** (blacklisting)
 - **How to handle uncertainty**
@@ -141,7 +142,9 @@ Constraints:
 - Only include peer-reviewed sources (no preprints)
 ```
 
-**Why it matters:** Without constraints, the AI may:
+**Why it matters:** 
+
+Without constraints, the AI may:
 - Include irrelevant material
 - Speculate on missing data (hallucination risk)
 - Mix incompatible datasets
@@ -354,12 +357,14 @@ estimate or use literature values.
 ## When to Use AUTOMAT
 
 **Best for:**
+
 ✅ Functional tasks with clear outputs (data extraction, formatting)  
 ✅ Scientific workflows requiring precision  
 ✅ Tasks where IP protection is critical  
 ✅ Situations requiring reproducible results
 
 **Not ideal for:**
+
 ❌ Open-ended brainstorming  
 ❌ Conversational learning (use CO-STAR instead)  
 ❌ Simple, one-sentence tasks

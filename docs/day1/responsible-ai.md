@@ -22,11 +22,13 @@ When you ask:
 > "What is the tensile strength of Ti₆Al₄V processed at 400°C with 2% oxygen content?"
 
 The model doesn't:
+
 - ❌ Look up this value in a database
 - ❌ Calculate it from first principles
 - ❌ Admit uncertainty
 
 Instead, it:
+
 - ✅ Predicts the most probable next tokens based on training patterns
 - ✅ Synthesises a plausible-sounding answer from similar contexts
 - ✅ Presents it with confidence
@@ -44,6 +46,7 @@ Instead, it:
 **Response:** "The melting point is 87.3°C, as reported by Zhang et al. (2019) in *Polymer Science Journal* 45(3):234-241."
 
 **Problem:** 
+
 - Specific temperature seems precise
 - Citation appears legitimate
 - **But:** Paper doesn't exist, value is fabricated
@@ -59,6 +62,7 @@ Instead, it:
 **Response:** "Approximately 4.2 GPa, based on typical reinforcement trends for graphene-loaded PLA."
 
 **Problem:**
+
 - Sounds reasonable (graphene does increase modulus)
 - "Approximately" creates false credibility
 - **But:** Actual value depends heavily on dispersion, fiber alignment, testing conditions
@@ -75,6 +79,7 @@ Instead, it:
 **Response:** Lists 10 papers with authors, titles, journals, DOIs.
 
 **Problem:** 
+
 - 3-4 are real papers
 - 6-7 are fabricated (plausible combinations of real authors, realistic titles, fake DOIs)
 - **Verify every citation**
@@ -90,6 +95,7 @@ Instead, it:
 **Response:** "Richard Smalley discovered carbon nanotubes in 1991."
 
 **Problem:**
+
 - Smalley worked on fullerenes (different structure)
 - Iijima is generally credited with CNT discovery (1991)
 - Model conflated related research
@@ -214,12 +220,14 @@ for optimisation, not specific values.
 **For truly sensitive work, use the air-gapped sandbox.**
 
 The local Llama model:
+
 - ✅ Your data never leaves the room
 - ✅ No internet connection required
 - ✅ No storage by external providers
 - ✅ Full admin monitoring
 
 **Best for:**
+
 - Analysing proprietary experimental data
 - Drafting patent applications
 - Processing customer information
@@ -285,6 +293,7 @@ The local Llama model:
 > "If I presented this to my most skeptical colleague, what would they challenge?"
 
 Then:
+
 1. Pre-emptively verify those points
 2. Add disclaimers where uncertainty exists
 3. Provide supporting evidence for critical claims
@@ -324,6 +333,7 @@ Then:
 **Scenario:** A researcher asked ChatGPT to help draft a patent application, including the complete synthesis protocol for a novel ceramic nanowire.
 
 **What happened:**
+
 1. Protocol was processed by OpenAI's servers
 2. Data potentially used for model training (uncertain)
 3. Timestamp creates "prior disclosure" risk
@@ -339,6 +349,7 @@ Then:
 **Scenario:** An R&D manager uploaded internal quarterly report (including customer names, pricing, and roadmap) to Claude for "executive summary generation."
 
 **What happened:**
+
 1. Document contained customer NDAs
 2. Violated data protection agreements
 3. Potential GDPR violation (customer data)
@@ -354,6 +365,7 @@ Then:
 **Scenario:** A materials scientist needed help analysing SEM images for fiber diameter distribution.
 
 **What they did:**
+
 1. Used local sandbox (air-gapped)
 2. Processed images entirely offline
 3. Generated Python script for analysis

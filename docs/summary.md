@@ -107,7 +107,7 @@ Congratulations on completing the AmaDema AI Training Programme! Let's consolida
 
 ### After This Training
 
-**Optimized interaction:**
+**Optimised interaction:**
 ```
 [AUTOMAT-structured prompt with persona, task, output format, 
 constraints, tone]

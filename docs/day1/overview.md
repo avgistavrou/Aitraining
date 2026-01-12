@@ -119,6 +119,7 @@ It's about:
 ### Template Library (Started)
 
 By end of Day 1, you'll have:
+
 - Literature data extraction template
 - Lab notebook formatting template
 - Risk assessment checklist
@@ -129,11 +130,13 @@ By end of Day 1, you'll have:
 ### Real Efficiency Gains
 
 **Traditional approach:**
+
 - Literature review: 4-6 hours
 - Protocol formatting: 20-30 min per protocol
 - Multiple iterations to get format right
 
 **With AUTOMAT:**
+
 - Literature review: 1-1.5 hours (75% reduction)
 - Protocol formatting: 3-5 min per protocol (85% reduction)
 - First-shot success rate >70%
@@ -145,18 +148,22 @@ By end of Day 1, you'll have:
 You'll practice with:
 
 1. **Literature Data Extraction** (AUTOMAT)
+
    - Extract synthesis parameters from 8 papers
    - Structured output for competitive analysis
    
 2. **Hallucination Hunt**
+
    - Find 5 deliberate errors in an AI-generated report
    - Learn verification techniques
 
 3. **Red List Assessment**
+
    - Evaluate 5 scenarios for IP risk
    - Practice sanitisation strategies
 
 4. **Prompt Refinement Challenge**
+
    - Transform a vague prompt into high-quality AUTOMAT prompt
    - A/B test in sandbox
 
@@ -188,6 +195,7 @@ You'll practice with:
 ### "Isn't this overkill for simple tasks?"
 
 For one-sentence tasks, yes. But most R&D work isn't simple. Frameworks:
+
 - Ensure reproducibility
 - Reduce iteration time
 - Create reusable templates
@@ -225,11 +233,13 @@ Always check the Red List first!
 ## Looking Ahead
 
 **Day 2** will build on today's foundation:
+
 - CO-STAR framework (for strategic communication)
 - Context deep dive (why it's critical)
 - Advanced hallucination detection
 
 **Day 3-4** will cover:
+
 - Technical architecture (how LLMs actually work)
 - Green AI (environmental impact & optimization)
 - Ethics, bias, and responsible deployment
