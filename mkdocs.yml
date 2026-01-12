@@ -51,28 +51,34 @@ nav:
     - LLM Tools: fundamentals/llm-tools.md
     - Context Matters: fundamentals/context-matters.md
   
-  - Day 1-2 - Precision Engineering:
-    - Overview: day1-2/overview.md
-    - The AUTOMAT Framework: day1-2/automat-framework.md
-    - CO-STAR Framework: day1-2/costar-framework.md
-    - Responsible AI & Risk Management: day1-2/responsible-ai.md
-    - Exercises: day1-2/exercises.md
+  - Day 1 - Foundation & AUTOMAT:
+    - Overview: day1/overview.md
+    - Introduction to Prompt Engineering: day1/intro-prompt-engineering.md
+    - The AUTOMAT Framework: day1/automat-framework.md
+    - Conversational Learning Basics: day1/conversational-basics.md
+    - Responsible AI & Risk Management: day1/responsible-ai.md
+    - Exercises: day1/exercises.md
   
-  - Day 3-4 - Technical Architecture:
-    - Overview: day3-4/overview.md
-    - NLMs vs LLMs: day3-4/nlms-vs-llms.md
-    - Green AI Practices: day3-4/green-ai.md
-    - Optimisation Strategies: day3-4/optimisation.md
-    - Exercises: day3-4/exercises.md
+  - Day 2 - Context & CO-STAR:
+    - Overview: day2/overview.md
+    - Context Deep Dive: day2/context-deep-dive.md
+    - CO-STAR Framework: day2/costar-framework.md
+    - Exercises: day2/exercises.md
   
-  - Conversational Learning:
-    - Using AI as Learning Partner: conversational/learning-partner.md
-    - The Power of Why Questions: conversational/why-questions.md
+  - Day 3 - Technical Understanding & Green AI:
+    - Overview: day3/overview.md
+    - NLMs vs LLMs: day3/nlms-vs-llms.md
+    - Green AI Introduction: day3/green-ai-intro.md
+    - Environmental Impact: day3/environmental-impact.md
+    - Exercises: day3/exercises.md
   
-  - Ethics & Compliance:
-    - Privacy & Data Security: ethics/privacy.md
-    - Environmental Impact: ethics/environmental.md
-    - Bias and Fairness: ethics/bias.md
+  - Day 4 - Mastery & Integration:
+    - Overview: day4/overview.md
+    - Optimisation Strategies: day4/optimisation.md
+    - Advanced Conversational Learning: day4/advanced-conversational.md
+    - Ethics, Bias & Privacy: day4/ethics-bias-privacy.md
+    - Exercises: day4/exercises.md
+    - Wrap-Up & Certification: day4/wrap-up.md
   
   - Resources:
     - Accessing the Sandbox: resources/sandbox-access.md

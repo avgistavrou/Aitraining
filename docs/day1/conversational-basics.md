@@ -1,4 +1,4 @@
-# Using AI as a Learning Partner
+# Conversational Learning Basics
 
 Most people approach AI with a **transactional mindset**: asking for document summaries, presentation outlines, email drafts, or quick recommendations. While this produces immediate outputs, it creates a fundamental problem: **you receive results without gaining insight into the underlying processes.**
 
@@ -35,12 +35,6 @@ AI: [Explains transferable principles]
 
 ---
 
-## The Power of "Why" Questions
-
-Understanding decision-making processes is at the heart of conversational learning. Rather than accepting AI outputs at face value, successful learners probe deeper into the reasoning behind recommendations.
-
----
-
 ## Mindset Shift Framework
 
 | From  | To  |
@@ -62,7 +56,7 @@ Understanding decision-making processes is at the heart of conversational learni
 
 ---
 
-## Learning Question Types
+## Basic Learning Question Types
 
 ### 1. Process Questions: "How did you do that?"
 
@@ -71,7 +65,7 @@ Understanding decision-making processes is at the heart of conversational learni
 **Examples:**
 - "Walk me through your thinking process for structuring that summary"
 - "What steps did you follow to reach this conclusion?"
-- "How did you prioritize these factors over others?"
+- "How did you prioritise these factors over others?"
 
 **Materials Science Application:**
 
@@ -142,98 +136,6 @@ would that change your recommendation?"
 
 ---
 
-### 4. Critical Questions: "What are the limitations?"
-
-**Purpose:** Develop critical evaluation skills
-
-**Examples:**
-- "What are the potential weaknesses of this approach?"
-- "Where might this reasoning fall short?"
-- "What would a critic say about this recommendation?"
-
-**Materials Science Application:**
-
-```
-Prompt: "You recommended in-situ reduction during electrospinning. 
-What could go wrong? What are the weaknesses of this approach?"
-
-[AI explains: incomplete reduction, toxic reducing agents, 
-process control challenges]
-
-Follow-up: "How would I verify that reduction is actually complete? 
-What characterisation would be essential?"
-```
-
-**Learning outcome:** Risk assessment and validation planning
-
----
-
-## Challenging AI Reasoning
-
-Don't just accept explanations—test them.
-
-### Challenge Techniques
-
-#### 1. Inversion
-
-"What would happen if we did the opposite?"
-
-```
-AI: "Increase electrospinning voltage to reduce fiber diameter"
-You: "What if we decreased voltage instead? Walk me through why 
-that would fail or what conditions might make it work."
-```
-
----
-
-#### 2. Boundary Testing
-
-"Can you think of situations where this approach would fail?"
-
-```
-AI: "Sonication improves graphene dispersion"
-You: "Under what conditions would sonication actually worsen 
-dispersion or damage the graphene? What are the limits?"
-```
-
----
-
-#### 3. Evidence Demand
-
-"What evidence would contradict your recommendation?"
-
-```
-AI: "PLA/graphene composites show improved tensile strength"
-You: "What experimental results would make you doubt this claim? 
-What confounding factors should I watch for in my own experiments?"
-```
-
----
-
-#### 4. Worst-Case Analysis
-
-"What's the worst-case scenario with this approach?"
-
-```
-AI: "Add 5% graphene for optimal properties"
-You: "If I follow this recommendation, what's the worst outcome? 
-What safety, cost, or performance issues might arise?"
-```
-
----
-
-#### 5. Devil's Advocate
-
-"Play devil's advocate with your own suggestion"
-
-```
-AI: "I recommend electrospinning for uniform nanofibers"
-You: "Now argue against electrospinning. What are the strongest 
-counterarguments? When would alternative methods be superior?"
-```
-
----
-
 ## Learning Dialogue Example
 
 ### Scenario: Understanding Polymer Synthesis
@@ -241,8 +143,8 @@ counterarguments? When would alternative methods be superior?"
 **Transactional approach (no learning):**
 
 ```
-User: "What's the best method to synthesize PLA?"
-AI: "Ring-opening polymerization of lactide using tin catalysts"
+User: "What's the best method to synthesise PLA?"
+AI: "Ring-opening polymerisation of lactide using tin catalysts"
 User: "Thanks"
 ```
 
@@ -255,9 +157,9 @@ User: "Thanks"
 **Learning partnership approach:**
 
 ```
-User: "What's the best method to synthesize PLA?"
+User: "What's the best method to synthesise PLA?"
 
-AI: "Ring-opening polymerization (ROP) of lactide using tin(II) 
+AI: "Ring-opening polymerisation (ROP) of lactide using tin(II) 
 octoate catalyst is most common industrially."
 
 User: "Why is ROP preferred over direct polycondensation?"
@@ -275,7 +177,7 @@ molecular weight vs. cost/complexity."
 User: "You mentioned tin catalysts. What alternatives exist and why 
 aren't they standard?"
 
-AI: "Aluminum, zinc, magnesium catalysts avoid tin toxicity concerns 
+AI: "Aluminium, zinc, magnesium catalysts avoid tin toxicity concerns 
 (important for biomedical). But tin gives best activity/control. 
 Trade-off: performance vs. biocompatibility requirements."
 
@@ -285,83 +187,11 @@ AI: "Decision framework: (1) Identify regulatory constraints (FDA
 limits tin in implants), (2) Define Mw requirements, (3) Assess 
 cost sensitivity, (4) Consider purification feasibility. For implants: 
 prefer zinc/magnesium despite lower activity."
-
-User: "Walk me through how you'd apply this framework to a food 
-packaging application."
-
-[AI demonstrates framework transfer]
 ```
 
 **Time:** 5 minutes  
 **Output:** Answer + Decision framework + Trade-off understanding  
 **Learning:** Transferable methodology
-
----
-
-## Developing Expertise Through Dialogue
-
-### The Expertise Ladder
-
-**Level 1: Novice**  
-Asks: "What should I do?"  
-Gets: Instructions
-
-**Level 2: Advanced Beginner**  
-Asks: "Why this approach?"  
-Gets: Rationale
-
-**Level 3: Competent**  
-Asks: "What are the trade-offs?"  
-Gets: Comparative analysis
-
-**Level 4: Proficient**  
-Asks: "Under what conditions would this fail?"  
-Gets: Boundary understanding
-
-**Level 5: Expert**  
-Asks: "Challenge my reasoning on [complex problem]"  
-Gets: Peer-level critique
-
-**Goal:** Progress from Level 1 → Level 5 through conversational learning
-
----
-
-## Practical Application: Materials Science
-
-### Scenario: Optimising Fiber Diameter
-
-**Level 1 (Novice) dialogue:**
-
-```
-"How do I reduce fiber diameter in electrospinning?"
-→ "Increase voltage or decrease solution concentration"
-```
-
----
-
-**Level 5 (Expert) dialogue:**
-
-```
-"I'm electrospinning PLA at 18 kV, 15cm distance, 12% w/v in DMF:DCM (3:1). 
-Fibers are 800nm but I need 200-300nm. Walk me through systematic 
-troubleshooting.
-
-First, help me understand: what's the dominant factor determining 
-diameter in my system? Justify with physics of jet formation.
-
-Second, for each potential change (voltage, concentration, distance, 
-solvent ratio, flow rate), explain:
-- Expected effect magnitude
-- Potential side effects
-- How I'd verify success
-- What could go wrong
-
-Third, challenge my goal: is 200-300nm actually optimal for my 
-application (mechanical properties for composites)? What trade-offs 
-am I making by targeting that range?"
-```
-
-**Result:** Systematic understanding + critical evaluation of own goals
 
 ---
 
@@ -426,14 +256,37 @@ Take a simple transactional query and expand it into a learning dialogue.
 
 **Your learning dialogue (design 5+ follow-up questions):**
 
-1. ___________
-2. ___________
-3. ___________
-4. ___________
-5. ___________
+1. Why does temperature matter for electrospinning? What physical processes does it affect?
+2. What's the typical range used in literature, and why?
+3. How would I experimentally determine the optimal temperature for my specific PLA grade?
+4. What happens if temperature is too high or too low?
+5. How does temperature interact with other parameters (voltage, concentration)?
 
-**What did you learn beyond the initial answer?** ___________
+**What did you learn beyond the initial answer?** 
+
+You gained:
+- Understanding of the physics behind the parameter
+- Decision framework for optimization
+- Experimental approach to validation
+- Awareness of parameter interactions
 
 ---
 
-**Next:** [The Power of Why Questions](why-questions.md) – Deep dive into questioning techniques →
+## Practice in the Sandbox
+
+**Try this learning dialogue:**
+
+1. Start with a simple question about materials science
+2. Ask "why" about the answer
+3. Request alternatives and trade-offs
+4. Ask how to verify the recommendation
+5. Request a decision framework you can apply elsewhere
+
+**Example starter questions:**
+- "What's a good fiber diameter for mechanical reinforcement?"
+- "Should I use GO or rGO for my composite?"
+- "What's the optimal graphene loading?"
+
+---
+
+**Next:** [Responsible AI & Risk Management](responsible-ai.md) – Protecting IP whilst using AI →

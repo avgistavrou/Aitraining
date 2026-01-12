@@ -1,6 +1,6 @@
-# Day 1-2 Exercises
+# Day 1 Exercises
 
-Practice applying AUTOMAT and CO-STAR frameworks with real materials science scenarios.
+Practice applying AUTOMAT framework, conversational learning, and responsible AI principles.
 
 ---
 
@@ -31,7 +31,7 @@ Construct a complete AUTOMAT prompt that will:
 
 ### Test Your Prompt
 
-1. Access the sandbox: `http://localhost:3000`
+1. Access the sandbox: `http://[instructor-IP]:3000`
 2. Paste your AUTOMAT prompt
 3. Evaluate the output:
    - Is the format exactly as specified?
@@ -41,43 +41,7 @@ Construct a complete AUTOMAT prompt that will:
 
 ---
 
-## Exercise 2: CO-STAR for Strategic Communication
-
-### Scenario
-
-Your R&D Director wants to understand the business case for adopting AI tools in the lab. She's concerned about:
-
-- Accuracy and reliability
-- IP security
-- Staff training time
-- Cost vs. benefit
-
-You need to write a 1-page memo that addresses these concerns whilst building enthusiasm for the programme.
-
-### Your Task
-
-Construct a complete CO-STAR prompt that will:
-
-1. Provide necessary Context about the situation
-2. Define clear Objective (not just "explain AI")
-3. Specify appropriate Style for scientific audience
-4. Set Tone that's persuasive but evidence-based
-5. Define Audience characteristics
-6. Specify Response format and structure
-
-### Evaluation Criteria
-
-**Good output should:**
-
-- Address all 4 concerns explicitly
-- Use evidence and examples
-- Acknowledge risks while emphasising benefits
-- End with clear call to action
-- Be persuasive to scientifically-minded skeptics
-
----
-
-## Exercise 3: The Hallucination Hunt
+## Exercise 2: The Hallucination Hunt
 
 !!! danger "Challenge: Find the Errors"
     Below is an AI-generated report about PLA/graphene nanocomposite synthesis. It contains **5 deliberate errors**:
@@ -143,7 +107,7 @@ Construct a complete CO-STAR prompt that will:
 
 ---
 
-## Exercise 4: Red List Assessment
+## Exercise 3: Red List Assessment
 
 For each scenario below, determine:
 
@@ -163,7 +127,7 @@ Attachment: Handwritten notes containing:
 - Distance: 18 cm  
 - Solution: 12% PLA in DMF with 5% GO
 - Outcome: Good fiber formation, uniform diameter
-- Next steps: Try 7% GO, optimize voltage
+- Next steps: Try 7% GO, optimise voltage
 ```
 
 **Your assessment:** ___________  
@@ -230,11 +194,11 @@ Need to maintain relationship whilst being honest about delay."
 
 ---
 
-## Exercise 5: Prompt Refinement Challenge
+## Exercise 4: Prompt Refinement Challenge
 
 ### Scenario
 
-You tested this prompt in the sandbox and got poor results. Your task: refine it using AUTOMAT or CO-STAR.
+You tested this prompt in the sandbox and got poor results. Your task: refine it using AUTOMAT.
 
 ### Original (Poor) Prompt
 
@@ -244,13 +208,15 @@ Summarise recent research on polymer nanocomposites
 
 ### Problems with This Prompt
 
-1. ___________
-2. ___________
-3. ___________
+1. No specific polymer or nanofiller defined
+2. No time frame for "recent"
+3. No output format specified
+4. No constraints on scope
+5. No audience or use case indicated
 
 ### Your Refined Prompt
 
-Using AUTOMAT or CO-STAR, rewrite this prompt to:
+Using AUTOMAT, rewrite this prompt to:
 
 - Specify the exact polymer and nanofiller of interest
 - Define output format
@@ -262,57 +228,33 @@ Using AUTOMAT or CO-STAR, rewrite this prompt to:
 
 ---
 
-## Exercise 6: Green Optimisation (Preview)
+## Exercise 5: Conversational Learning Practice
 
-This exercise will be explored in depth in Day 3-4, but try it now:
+### Scenario
 
-### The Bloated Prompt Chain
+**Initial prompt:** "What's the best graphene loading for PLA composites?"
 
-A colleague uses this workflow:
-
-1. **Prompt 1:** "What are PLA nanocomposites?"
-2. **Prompt 2:** "What nanofillers are used in PLA?"
-3. **Prompt 3:** "What are the properties of PLA/graphene?"
-4. **Prompt 4:** "What synthesis methods exist for PLA/graphene?"
-5. **Prompt 5:** "What is electrospinning?"
-6. **Prompt 6:** "How is graphene incorporated in electrospinning?"
-7. **Prompt 7:** "What are common problems with graphene dispersion?"
-8. **Prompt 8:** "Summarise best practices for PLA/graphene electrospinning"
-
-**Problem:** 8 separate queries, massive token usage, 10-15 minutes of work.
+**AI response:** "5-7 wt% typically provides a good balance of mechanical enhancement and processability."
 
 ### Your Task
 
-**Refactor this into 1-2 efficient prompts** that achieve the same knowledge outcome.
+Design a learning dialogue with at least 5 follow-up questions that:
 
-**Consider:**
-- What's the actual goal?
-- What context can be provided upfront?
-- How can you batch related questions?
+1. Probe the reasoning behind this recommendation
+2. Explore alternative scenarios
+3. Understand trade-offs
+4. Identify assumptions
+5. Build a transferable decision framework
 
----
+### Example Follow-ups
 
-## Bonus Exercise: Peer Review
+1. ___________
+2. ___________
+3. ___________
+4. ___________
+5. ___________
 
-### Task
-
-1. Exchange prompts with a colleague
-2. Evaluate their prompt using this rubric:
-3. Provide constructive feedback
-
-### Evaluation Rubric
-
-| Criterion | Score (1-5) | Notes |
-|-----------|-------------|-------|
-| **Clear objective** | ___ | Is the goal explicit? |
-| **Appropriate framework** | ___ | AUTOMAT vs CO-STAR choice |
-| **Output format specified** | ___ | Could anyone reproduce? |
-| **Constraints included** | ___ | Handles edge cases? |
-| **IP protection** | ___ | No Red List violations? |
-| **Tone calibration** | ___ | Matches audience? |
-| **Efficiency** | ___ | Minimal iterations needed? |
-
-**Total:** ___ / 35
+**Test this dialogue in the sandbox** and document what you learned beyond the initial answer.
 
 ---
 
@@ -320,7 +262,7 @@ A colleague uses this workflow:
 
 After completing exercises, consider:
 
-1. **Efficiency:** How much time did frameworks save vs. conversational approach?
+1. **Efficiency:** How much time did AUTOMAT save vs. conversational approach?
 2. **Quality:** Did structured prompts produce more relevant outputs?
 3. **Reproducibility:** Could a colleague use your prompt and get similar results?
 4. **Security:** Did you successfully avoid Red List violations?
@@ -330,7 +272,7 @@ After completing exercises, consider:
 
 ## Workshop Debriefing
 
-At the end of Day 1-2, we'll discuss:
+At the end of Day 1, we'll discuss:
 
 - Common patterns in successful prompts
 - Frequently missed constraints
@@ -339,4 +281,4 @@ At the end of Day 1-2, we'll discuss:
 
 ---
 
-**Next:** [Day 3-4 Overview](../day3-4/overview.md) – Technical Architecture & Green AI →
+**Next:** [Day 2 Overview](../day2/overview.md) – Context & CO-STAR Framework →

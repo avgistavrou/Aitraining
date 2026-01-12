@@ -113,6 +113,7 @@ This is the safest environment for practicing with company-specific examples!
 ### Want to Continue Practicing?
 
 ** Public AI Tools** (for non-sensitive data only)
+
 - ChatGPT, Claude, Gemini
 - Follow Red List protocol
 - Never share proprietary information
