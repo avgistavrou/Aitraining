@@ -11,7 +11,7 @@ During the workshop, you'll practice prompt engineering in a **secure, local AI 
 
 ### Workshop URL
 
-**Connect to:** `http://[INSTRUCTOR_IP]:3000`
+**Connect to:** `http:// 192.168.1.186:3000`
 
 Your instructor will provide the specific IP address at the start of the workshop.
 
