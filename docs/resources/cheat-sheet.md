@@ -237,8 +237,8 @@ code generation, classification)  |  strategic analysis, proposals)
 - [AUTOMAT Framework Details](../day1-2/automat-framework.md)
 - [CO-STAR Framework Details](../day1-2/costar-framework.md)
 - [Green AI Practices](../day3-4/green-ai.md)
-- [Sandbox Setup](sandbox-setup.md)
 - [Golden Prompts](golden-prompts.md)
+- [Red List Protocol](red-list.md)
 
 ---
 

@@ -47,7 +47,7 @@ A "book of spells" for the R&D team, containing:
 
 ### 🔬 Interactive Nano-Sandbox
 
-A secure, local instance of Llama 3.3 8B that allows you to:
+A secure, local instance of Llama 3.2 (3 billion parameters) that allows you to:
 
 - Practice with real, sensitive data during the workshop
 - Experiment in a completely offline environment

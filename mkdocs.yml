@@ -75,7 +75,7 @@ nav:
     - Bias and Fairness: ethics/bias.md
   
   - Resources:
-    - Sandbox Setup: resources/sandbox-setup.md
+    - Accessing the Sandbox: resources/sandbox-access.md
     - Cheat Sheet: resources/cheat-sheet.md
     - Golden Prompts: resources/golden-prompts.md
     - Red List: resources/red-list.md

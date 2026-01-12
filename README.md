@@ -50,7 +50,7 @@ The site will be available at `http://127.0.0.1:8000`
 ## 🔬 Sandbox Environment
 
 The course includes a local AI sandbox using:
-- **Ollama** with Llama 3.3 8B
+- **Ollama** with Llama 3.2 (3B parameters)
 - **Open WebUI** for chat interface
 - **Docker Compose** for easy deployment
 
@@ -88,7 +88,7 @@ Materials Science AI Specialist
 
 ## 📄 Licence
 
-Copyright © 2025 AmaDema - All Rights Reserved
+Copyright © 2026 AmaDema - All Rights Reserved
 
 Course materials are proprietary and intended for AmaDema employees only.
 
@@ -122,4 +122,4 @@ The site automatically deploys to GitHub Pages via GitHub Actions when changes a
 
 ---
 
-**Ready to transform your AI usage?** Visit the [course website](https://avgistavrou.github.io/amadema-aitraining/) to begin.
+**Ready to transform your AI usage?** Visit the [course website](https://avgistavrou.github.io/Aitraining/) to begin.
