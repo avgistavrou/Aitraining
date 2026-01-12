@@ -15,8 +15,6 @@ During the workshop, you'll practice prompt engineering in a **secure, local AI 
 
 Your instructor will provide the specific IP address at the start of the workshop.
 
-**Example:** `http://192.168.1.105:3000`
-
 ---
 
 ## First-Time Setup
@@ -71,6 +69,7 @@ Throughout the workshop, you'll use the sandbox to:
 ### Can't Connect to URL
 
 **Check:**
+
 - Are you on the same WiFi network as the instructor?
 - Is the URL typed correctly (including `http://`)?
 - Try refreshing the page (F5)
@@ -82,6 +81,7 @@ Throughout the workshop, you'll use the sandbox to:
 ### Model Not Responding
 
 **Try:**
+
 - Wait 10-15 seconds (CPU inference can be slow)
 - Check if model is selected correctly (llama3.2:3b)
 - Start a new chat
@@ -112,17 +112,11 @@ This is the safest environment for practicing with company-specific examples!
 
 ### Want to Continue Practicing?
 
-You have two options:
-
-**Option 1: Public AI Tools** (for non-sensitive data only)
+** Public AI Tools** (for non-sensitive data only)
 - ChatGPT, Claude, Gemini
 - Follow Red List protocol
 - Never share proprietary information
 
-**Option 2: Set Up Your Own Local Sandbox**
-- Contact your instructor for setup guide
-- Requires Docker and 16GB+ RAM
-- Complete privacy for all work
 
 ---
 
@@ -134,7 +128,7 @@ You have two options:
 | **Model** | llama3.2:3b |
 | **Login** | Credentials from instructor |
 | **Support** | Ask instructor during workshop |
-| **Data Privacy** | Complete - nothing leaves the laptop |
+| **Data Privacy** | Complete - nothing leaves the room |
 
 ---
 

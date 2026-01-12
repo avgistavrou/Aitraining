@@ -36,12 +36,14 @@ Check the [FAQ page](faq.md) first - your question might already be there!
 ## Privacy Note
 
 Your questions are:
--  Completely anonymous
--  Only visible to instructor
--  Never shared with identifying information
--  Used to improve training content
+
+- Completely anonymous
+- Only visible to instructor
+- Never shared with identifying information
+- Used to improve training content
 
 When answered publicly on FAQ page, questions are:
+
 - Rephrased to maintain anonymity
 - Combined with similar questions
 - Sanitised to remove company-specific details if needed
