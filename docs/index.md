@@ -4,7 +4,7 @@
 
 Welcome to this intensive training course on the responsible and effective use of Artificial Intelligence (AI) in materials science and nanotechnology R&D.
 
-The term **Artificial Intelligence** refers to computer systems that can perform tasks typically requiring human intelligence, such as understanding language, recognising patterns, and making decisions. While the AI field has many years of research and development behind it, today's increased popularity is largely driven by **generative AI models**—systems that can create new content like text, images, and code based on the patterns they've learned from vast amounts of data.
+The term **Artificial Intelligence** refers to computer systems that can perform tasks typically requiring human intelligence, such as understanding language, recognising patterns, and making decisions. While the AI field has many years of research and development behind it, today's increased popularity is largely driven by **generative AI models**; systems that can create new content like text, images, and code based on the patterns they've learned from vast amounts of data.
 
 You've probably heard of and used tools like ChatGPT and Copilot—here we'll learn how to use them effectively for materials science applications whilst protecting intellectual property and maintaining sustainable practices.
 
