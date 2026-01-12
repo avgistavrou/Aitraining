@@ -74,13 +74,6 @@ Deep dives into specific prompting strategies
 
 ---
 
-### University of Bristol: Harnessing AI
-
-**Course Website:** [https://bristol-training.github.io/harnessing-ai/](https://bristol-training.github.io/harnessing-ai/)  
-General AI training course (this programme is adapted from it)
-
----
-
 ## Tools & Platforms
 
 ### OpenAI Tokenizer
@@ -162,21 +155,6 @@ Research and advocacy on bias in AI
 **Website:** [https://ainowinstitute.org/](https://ainowinstitute.org/)  
 Research on social implications of AI
 
----
-
-### Books
-
-**"Race After Technology"**  
-by Ruha Benjamin  
-Examines how technology can reproduce and deepen social inequities
-
-**"Algorithms of Oppression"**  
-by Safiya Noble  
-How search engines reinforce racism
-
-**"Weapons of Math Destruction"**  
-by Cathy O'Neil  
-On algorithmic bias and fairness
 
 ---
 
@@ -235,22 +213,6 @@ Weekly newsletter on AI developments
 
 ---
 
-## Online Courses
-
-### DeepLearning.AI: ChatGPT Prompt Engineering for Developers
-
-**Platform:** Coursera / DeepLearning.AI  
-Short course on practical prompt engineering
-
----
-
-### Fast.ai: Practical Deep Learning
-
-**URL:** [https://course.fast.ai/](https://course.fast.ai/)  
-Free course covering fundamentals
-
----
-
 ## Documentation Referenced in This Course
 
 All documents in `General AI Training/` folder:
@@ -265,14 +227,6 @@ All documents in `General AI Training/` folder:
 
 ---
 
-## AmaDema Internal Resources
-
-### Course Repository
-
-**GitHub:** [https://github.com/avgistavrou/amadema-aitraining](https://github.com/avgistavrou/amadema-aitraining)  
-All course materials, updated resources
-
----
 
 ### Local Sandbox
 
@@ -284,7 +238,7 @@ During workshop only
 ### Course Contact
 
 **Instructor:** Avgi Stavrou  
-**Email:** [Contact via AmaDema HR]  
+**Email:** avgi.stavrou.22@gmail.com 
 **GitHub Issues:** [Report issues on repository](https://github.com/avgistavrou/amadema-aitraining/issues)
 
 ---
@@ -306,10 +260,7 @@ AI is rapidly evolving. To stay up-to-date:
 
 Found a broken link? Have a resource to suggest?
 
-**Submit via GitHub:**
-1. Visit [repository](https://github.com/avgistavrou/amadema-aitraining)
-2. Open an issue or pull request
-3. Tag with `resource-suggestion`
+
 
 ---
 

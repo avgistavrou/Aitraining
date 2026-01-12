@@ -81,6 +81,9 @@ nav:
     - Red List: resources/red-list.md
     - External Resources: resources/external.md
   
+  - Ask Me Anything: ama.md
+  - FAQ: faq.md
+  
   - Summary: summary.md
 
 markdown_extensions:
