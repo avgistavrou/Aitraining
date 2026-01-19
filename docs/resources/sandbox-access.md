@@ -11,9 +11,9 @@ During the workshop, you'll practice prompt engineering in a **secure, local AI 
 
 ### Workshop URL
 
-**Connect to:** `http:// 192.168.1.186:3000`
+**Connect to:** `http://192.168.1.177:3000`
 
-Your instructor will provide the specific IP address at the start of the workshop.
+Use this URL throughout the workshop.
 
 ---
 
@@ -125,7 +125,7 @@ This is the safest environment for practicing with company-specific examples!
 
 | What | Details |
 |------|---------|
-| **URL** | Provided by instructor at workshop start |
+| **URL** | `http://192.168.1.177:3000` |
 | **Model** | llama3.2:3b |
 | **Login** | Credentials from instructor |
 | **Support** | Ask instructor during workshop |

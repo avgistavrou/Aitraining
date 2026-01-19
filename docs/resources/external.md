@@ -230,7 +230,7 @@ All documents in `General AI Training/` folder:
 
 ### Local Sandbox
 
-**Access:** `http://[INSTRUCTOR_LAPTOP_IP]:3000`  
+**Access:** `http://192.168.1.177:3000`  
 During workshop only
 
 ---
