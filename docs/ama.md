@@ -54,4 +54,20 @@ When answered publicly on FAQ page, questions are:
 
 ---
 
+## Course Feedback Questionnaire
+
+**Completed the training?** Please help us improve by sharing your feedback!
+
+**📋 Participant Feedback Form:** [https://forms.gle/dhMvBNmVDPnBbRYM6](https://forms.gle/dhMvBNmVDPnBbRYM6)
+
+Your anonymous responses help us:
+- Refine the curriculum and materials
+- Improve future delivery
+- Measure training effectiveness
+- Identify areas for enhancement
+
+**Time required:** 1-2 minutes
+
+---
+
 **See answers to common questions:** [FAQ Page](faq.md) →
