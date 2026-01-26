@@ -239,7 +239,7 @@ During workshop only
 
 **Instructor:** Avgi Stavrou  
 **Email:** avgi.stavrou.22@gmail.com 
-**GitHub Issues:** [Report issues on repository](https://github.com/avgistavrou/amadema-aitraining/issues)
+
 
 ---
 

@@ -87,6 +87,69 @@ Embedding: [0.124, -0.981, 0.453, -0.228, 0.765, ..., -0.334]
 
 ---
 
+### What Do These 768 Numbers Mean?
+
+!!! info "The Key Question"
+    Unlike your materials property table where each dimension has a clear meaning (density, strength, conductivity), **the 768 dimensions in word embeddings are learned abstract features**.
+
+**Short answer:** Each dimension is a **learned pattern** discovered during training—NOT a pre-defined property.
+
+#### The Critical Difference:
+
+**Materials Property Space (Clear Meanings):**
+```
+Dimension 1 = Density (g/cm³)
+Dimension 2 = Tensile Strength (MPa)
+Dimension 3 = Thermal Conductivity (W/m·K)
+```
+
+**Word Embedding Space (Abstract Patterns):**
+```
+Dimension 1 = ??? (some abstract pattern learned from text)
+Dimension 2 = ??? (another abstract pattern)
+...
+Dimension 768 = ??? (yet another abstract pattern)
+```
+
+#### Why 768?
+
+That's just the **model architecture choice**. Different models use different dimensions:
+
+- **BERT-base:** 768 dimensions
+- **BERT-large:** 1024 dimensions
+- **GPT-3:** 12,288 dimensions
+- **llama3.2:3b:** 3,072 dimensions
+
+More dimensions = more capacity to capture subtle meaning differences (but also more computational cost).
+
+#### What Researchers Have Found:
+
+Through analysis, some dimensions **roughly correspond** to linguistic patterns:
+
+- "Noun-ness" vs "Verb-ness"
+- "Positive" vs "Negative" sentiment
+- "Singular" vs "Plural"
+- "Past tense" vs "Present tense"
+
+But **most dimensions are combinations** of multiple abstract patterns that humans can't easily interpret.
+
+#### The PCA Analogy
+
+Think of **Principal Component Analysis (PCA)** in materials science:
+
+1. You measure 20 material properties
+2. PCA finds new axes that capture most variation
+3. PC1 might be "roughly metallic-ness" but it's a **combination** of density, conductivity, hardness...
+4. You can't say "PC1 = this specific property"
+
+**Word embeddings work the same way**—each dimension is a **learned combination** of patterns from billions of text examples.
+
+#### Key Insight:
+
+**The AI doesn't know "dimension 42 means metallicity."** It learned through training that certain dimension values cluster words that appear in similar contexts. The dimensions emerged naturally from the data, not from human definitions.
+
+---
+
 ### Step 3: Semantic Space (The Map Itself)
 
 In this mathematical space:
@@ -147,12 +210,50 @@ AI doesn't think "metals with high strength." It finds words with vectors close 
 
 ### 2. Technical Terms May Have Poor Embeddings
 
-If "electrospinning" appears rarely in training data, its embedding may be:
-- Less precise
-- Further from related concepts
-- Less useful for reasoning
+**Key distinction:** Tokenization ≠ Embedding quality
 
-**Solution:** Use clear, well-established terminology in prompts when possible.
+#### What Happens with Rare Terms?
+
+**Scenario:** "Nanofibrillation" appears rarely in training data
+
+**Tokenization:** May still be normal
+```
+"Nanofibrillation" → ["Nano", "fib", "rill", "ation"]
+```
+The tokenizer recognizes common morphemes, so splitting is reasonable even for rare terms.
+
+**The Real Problem: Poor Embedding Quality**
+
+When a term is rare in training data:
+
+1. **Weak semantic position**
+   - Its embedding hasn't been updated enough during training
+   - Ends up in a less meaningful position in semantic space
+   - Not well-connected to related concepts
+
+2. **Poor relationships**
+   - AI doesn't understand which concepts it's related to
+   - May confuse it with phonetically similar words
+   - Can't infer context well
+
+3. **Unreliable behavior**
+   - Generates incorrect contexts around it
+   - May hallucinate relationships that don't exist
+   - Struggles to answer questions about it accurately
+
+#### Example:
+
+**Common term:** "Polymer"
+- Rich embedding (seen millions of times)
+- Strong connections to: plastic, material, synthesis, properties
+- AI handles it confidently
+
+**Rare term:** "Nanofibrillation" 
+- Weak embedding (seen hundreds of times)
+- Unclear connections (maybe near "nano" and "fiber" but not well-integrated)
+- AI may misunderstand or generate nonsense
+
+**Solution:** When using rare technical terms, provide explicit context and definitions in your prompt rather than assuming the AI "knows" them.
 
 
 ---
@@ -263,14 +364,21 @@ This explains why:
     c) A number  
     d) A sentence
     
-    **3.** If a technical term like "PLA/graphene nanocomposite" splits into many tokens, what does that suggest?
+    **3.** You type "electrospinning" and it splits into ["Electro", "spinning"]. What does this indicate?
     
-    a) The term is too complex for AI  
-    b) The term appeared rarely in training data  
-    c) There's a spelling error  
-    d) AI doesn't know chemistry
+    a) There's a spelling error  
+    b) The AI doesn't understand the term  
+    c) Normal tokenization of a compound word  
+    d) The term is too technical for AI
     
-    **Answers:** 1-b, 2-b, 3-b
+    **4.** If a term splits into MANY tiny tokens (e.g., "eletrospining" → ["ele", "tr", "osp", "ining"]), what's the most likely cause?
+    
+    a) Normal compound word splitting  
+    b) Spelling mistake or term not in tokenizer vocabulary  
+    c) The term is too long  
+    d) Random tokenization error
+    
+    **Answers:** 1-b, 2-b, 3-c, 4-b
 
 ---
 

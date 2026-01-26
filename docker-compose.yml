@@ -29,6 +29,8 @@ services:
       - WEBUI_AUTH=true
       - WEBUI_NAME=AmaDema AI Sandbox
       - ENABLE_ADMIN_EXPORT=true
+      - ENABLE_MODEL_FILTER=false
+      - DEFAULT_MODELS=llama3.2:3b
     volumes:
       - webui_data:/app/backend/data
     depends_on:

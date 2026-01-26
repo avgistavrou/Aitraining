@@ -192,7 +192,7 @@ resource-limited settings to advanced implants for specialised surgery"
 **Your responsibility:**
 - Be aware of human cost behind AI systems
 - Support ethical AI providers
-- Recognize AI is not "free"—humans enable it
+- Recognise AI is not "free"—humans enable it
 
 ---
 
@@ -324,7 +324,7 @@ Different AI tools have different data policies:
 For sensitive work:
 
 ✅ **Local Llama models** (via Ollama)  
-✅ **Enterprise licenses** with data protection guarantees  
+✅ **Enterprise licences** with data protection guarantees  
 ✅ **Air-gapped systems** for critical work
 
 ---
@@ -449,4 +449,4 @@ Before each AI interaction, verify:
 
 ---
 
-**Next:** [Day 4 Exercises](exercises.md) – Practice ethical AI use →
+**Next:** [Day 4 Exercises](exercises.md) – Practice mastery & responsibility →

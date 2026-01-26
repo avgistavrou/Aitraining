@@ -70,7 +70,7 @@ nav:
     - NLM Foundations: day3/nlm-foundations.md
     - The "Large" in LLM: day3/llm-scaling-attention.md
     - Hallucination Prevention: day3/hallucination-prevention.md
-    - Exercises: day3/exercises.md
+    
   
   - Day 4:
     - Overview: day4/overview.md

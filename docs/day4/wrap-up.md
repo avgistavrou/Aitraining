@@ -18,18 +18,18 @@ Congratulations! You've completed the AmaDema AI Training Programme.
 ✅ Advanced hallucination detection  
 ✅ Framework selection skills
 
-### Day 3: Technical Understanding & Green AI
+### Day 3: Technical Understanding
 ✅ NLM vs. LLM tool selection  
-✅ Environmental impact awareness  
-✅ Carbon footprint calculation  
-✅ Green AI optimization strategies
+✅ Tokenisation and embedding principles  
+✅ Hallucination mechanisms and prevention  
+✅ Model selection strategy (Small vs. Large)
 
-### Day 4: Mastery & Integration
-✅ Advanced optimization techniques  
+### Day 4: Mastery & Responsibility
+✅ Environmental impact awareness and Green AI  
+✅ Advanced optimisation techniques (caching, batching)  
 ✅ Deep conversational learning with "why" questions  
 ✅ Bias detection and mitigation  
-✅ Privacy and security protocols  
-✅ Complete workflow integration
+✅ Privacy protocols and Local Sandbox use
 
 ---
 

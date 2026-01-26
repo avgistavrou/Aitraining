@@ -68,12 +68,14 @@ nav:
   - Day 3:
     - Overview: day3/overview.md
     - NLMs vs LLMs: day3/nlms-vs-llms.md
-    - Green AI Introduction: day3/green-ai-intro.md
-    - Environmental Impact: day3/environmental-impact.md
+    - NLM Foundations: day3/nlm-foundations.md
+    - Scaling & Attention: day3/llm-scaling-attention.md
+    - Hallucination Prevention: day3/hallucination-prevention.md
     - Exercises: day3/exercises.md
   
   - Day 4:
     - Overview: day4/overview.md
+    - Environmental Impact: day4/environmental-impact.md
     - Optimisation Strategies: day4/optimisation.md
     - Advanced Conversational Learning: day4/advanced-conversational.md
     - Ethics, Bias & Privacy: day4/ethics-bias-privacy.md

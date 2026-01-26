@@ -171,7 +171,7 @@ You'll practice with:
 
 ## Materials You'll Use
 
-- **Sandbox environment:** `http://[instructor-IP]:3000`
+- **Sandbox environment:** `http://192.168.1.177:3000`
 - **Model:** Llama 3.2 (3B) - running locally, 100% private
 - **Red List Protocol:** [Reference guide](../resources/red-list.md)
 - **Cheat Sheet:** [Quick reference](../resources/cheat-sheet.md)

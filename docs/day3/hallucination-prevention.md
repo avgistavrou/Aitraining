@@ -608,10 +608,9 @@ Probability ≠ Truth → Grounding techniques (keeping AI honest)
 
 ---
 
-**Next Steps:**
-- Day 4 will cover **Green AI** (environmental impact) and **advanced optimization**
-- You now have complete understanding of AI fundamentals
-- Time to apply this knowledge to sustainable, responsible AI use
+---
+
+**Next:** [Day 4 Overview](../day4/overview.md) – Mastery & Responsibility →
 
 ---
 

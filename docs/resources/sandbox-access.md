@@ -36,8 +36,16 @@ Open your browser and navigate to the provided URL.
 ### Select the Model
 
 1. Click **"New Chat"** to start a conversation
-2. In the model dropdown (top of chat), select: **llama3.2:3b**
-3. Start typing your prompt!
+2. **The model should be pre-selected** (llama3.2:3b)
+3. If you see a model dropdown at the top, select: **llama3.2:3b**
+4. Start typing your prompt!
+
+!!! warning "No Model Dropdown?"
+    If you don't see a model dropdown or can't select a model:
+    
+    - The model may already be pre-selected (this is normal!)
+    - Try typing a test prompt anyway - it should work
+    - If you get an error, **notify the instructor immediately**
 
 ### Test Your Connection
 

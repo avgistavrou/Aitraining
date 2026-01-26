@@ -324,7 +324,7 @@ Bad:
 Good:
 ```
 [Asks whys]
-[Summarizes learning]
+[Summarises learning]
 "Based on this understanding, here's how I'd approach my specific problem..."
 "Does my reasoning align with the principles we discussed?"
 ```
@@ -375,11 +375,11 @@ Good:
 [Receive strategic document]
 "Why this tone for this audience?"
 "Why structure the argument in this sequence?"
-"Why emphasize these points over others?"
+"Why emphasise these points over others?"
 ```
 
 **Learning:** Strategic communication principles
 
 ---
 
-**Next:** [Privacy & Compliance](../ethics/privacy.md) – Responsible AI use →
+**Next:** [Ethics, Bias & Privacy](ethics-bias-privacy.md) – Responsible AI use →

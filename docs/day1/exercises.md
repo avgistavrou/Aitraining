@@ -31,7 +31,7 @@ Construct a complete AUTOMAT prompt that will:
 
 ### Test Your Prompt
 
-1. Access the sandbox: `http://[instructor-IP]:3000`
+1. Access the sandbox: `http://192.168.1.177:3000`
 2. Paste your AUTOMAT prompt
 3. Evaluate the output:
    - Is the format exactly as specified?

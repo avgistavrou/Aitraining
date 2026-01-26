@@ -1197,7 +1197,7 @@ Benefits:
 ✅ No internet required
 ✅ Full privacy for sensitive work
 
-Access: http://[instructor-IP]:3000
+Access: http://192.168.1.177:3000
 
 Best For:
 → Proprietary synthesis data

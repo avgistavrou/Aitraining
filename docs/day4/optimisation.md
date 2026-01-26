@@ -669,7 +669,7 @@ Before submitting any AI query, verify:
 
 ---
 
-## Exercise: Optimize Your Own Workflow
+## Exercise: Optimise Your Own Workflow
 
 !!! question "Challenge"
     
@@ -680,7 +680,7 @@ Before submitting any AI query, verify:
     - How long does it take?
     - What's the output quality?
     
-    **Step 3:** Apply 3 optimization strategies from this page
+    **Step 3:** Apply 3 optimisation strategies from this page
     
     **Step 4:** Test optimised approach in sandbox
     
@@ -694,4 +694,4 @@ Before submitting any AI query, verify:
 
 ---
 
-**Next:** [Day 3-4 Exercises](exercises.md) – Practice optimization techniques →
+**Next:** [Advanced Conversational Learning](advanced-conversational.md) →
