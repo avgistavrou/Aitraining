@@ -610,7 +610,7 @@ Probability ≠ Truth → Grounding techniques (keeping AI honest)
 
 ---
 
-**Next:** [Day 4 Overview](../day4/overview.md) – Mastery & Responsibility →
+**Next:** [Day 4 Overview](../day4/overview.md): Mastery & Responsibility →
 
 ---
 

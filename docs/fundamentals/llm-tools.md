@@ -122,4 +122,4 @@ When selecting an LLM, consider:
 
 
 
-**Next:** [Context Matters](context-matters.md) – Learn why context is everything in prompt engineering →
+**Next:** [Context Matters](context-matters.md): Learn why context is everything in prompt engineering →

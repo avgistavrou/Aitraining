@@ -383,4 +383,4 @@ At the end of Day 2, we'll discuss:
 
 ---
 
-**Next:** [Day 3 Overview](../day3/overview.md) – Technical Architecture & Green AI →
+**Next:** [Day 3 Overview](../day3/overview.md): Technical Architecture & Green AI →

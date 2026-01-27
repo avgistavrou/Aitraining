@@ -116,4 +116,4 @@ Throughout this session, we'll use **materials science thinking** to understand 
 
 **Ready to understand what's really happening when you type a prompt?**
 
-**Next:** [NLM Foundations](nlm-foundations.md) – How words become coordinates →
+**Next:** [NLM Foundations](nlm-foundations.md): How words become coordinates →

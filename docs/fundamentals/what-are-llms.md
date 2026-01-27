@@ -121,4 +121,4 @@ The model doesn't "know" this—it predicts plausible text based on patterns in 
 
 ---
 
-**Next:** [LLM Tools](llm-tools.md) – Explore the AI tools available for your work →
+**Next:** [LLM Tools](llm-tools.md): Explore the AI tools available for your work →

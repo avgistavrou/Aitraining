@@ -264,4 +264,4 @@ By end of Day 1, you'll have:
 
 ---
 
-**Next:** [The AUTOMAT Framework](automat-framework.md) – Your systematic method for scientific prompts →
+**Next:** [The AUTOMAT Framework](automat-framework.md): Your systematic method for scientific prompts →

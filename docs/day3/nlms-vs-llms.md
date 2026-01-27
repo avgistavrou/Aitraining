@@ -420,4 +420,4 @@ For each task, identify the most appropriate tool:
 
 ---
 
-**Next:** [Green AI Practices](green-ai.md) – Minimise your AI carbon footprint →
+**Next:** [Green AI Practices](../day4/environmental-impact.md): Minimise your AI carbon footprint →

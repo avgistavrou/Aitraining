@@ -417,4 +417,4 @@ rather than promotional
 
 ---
 
-**Next:** [Responsible AI & Risk Management](responsible-ai.md) – Protect your IP whilst leveraging AI tools →
+**Next:** [Responsible AI & Risk Management](responsible-ai.md): Protect your IP whilst leveraging AI tools →

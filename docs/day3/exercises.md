@@ -429,4 +429,4 @@ Based on exercises, create your personal green AI action plan:
 
 ---
 
-**Next:** [Day 4 Overview](../day4/overview.md) – Advanced Optimization & Ethics →
+**Next:** [Day 4 Overview](../day4/overview.md): Advanced Optimization & Ethics →

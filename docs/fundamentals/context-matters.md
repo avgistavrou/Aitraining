@@ -223,4 +223,4 @@ You won't always get what you want on the first attempt. A useful strategy is to
 
 ---
 
-**Next:** [Prompting Frameworks](../day1-2/overview.md) – Learn structured approaches to prompt engineering →
+**Next:** [Prompting Frameworks](../day1/overview.md): Learn structured approaches to prompt engineering →

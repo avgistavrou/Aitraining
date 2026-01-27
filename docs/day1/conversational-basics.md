@@ -292,4 +292,4 @@ You gained:
 
 ---
 
-**Next:** [Responsible AI & Risk Management](responsible-ai.md) – Protecting IP whilst using AI →
+**Next:** [Responsible AI & Risk Management](responsible-ai.md): Protecting IP whilst using AI →

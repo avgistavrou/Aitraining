@@ -499,4 +499,4 @@ breaks). Use scale bar for calibration. Present results as:
 
 ---
 
-**Next:** [CO-STAR Framework](costar-framework.md) – Strategic communication structure →
+**Next:** [CO-STAR Framework](costar-framework.md): Strategic communication structure →

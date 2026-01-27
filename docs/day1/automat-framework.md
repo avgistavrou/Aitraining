@@ -371,4 +371,4 @@ estimate or use literature values.
 
 ---
 
-**Next:** [CO-STAR Framework](costar-framework.md) – For context-heavy communication →
+**Next:** [CO-STAR Framework](../day2/costar-framework.md) – For context-heavy communication →

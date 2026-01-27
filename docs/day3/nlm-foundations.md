@@ -382,4 +382,4 @@ This explains why:
 
 ---
 
-**Next:** [The "Large" in LLM](llm-scaling-attention.md) – How scale and attention enable context understanding →
+**Next:** [The "Large" in LLM](llm-scaling-attention.md): How scale and attention enable context understanding →

@@ -281,4 +281,4 @@ At the end of Day 1, we'll discuss:
 
 ---
 
-**Next:** [Day 2 Overview](../day2/overview.md) – Context & CO-STAR Framework →
+**Next:** [Day 2 Overview](../day2/overview.md): Context & CO-STAR Framework →

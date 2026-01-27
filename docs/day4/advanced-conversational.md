@@ -382,4 +382,4 @@ Good:
 
 ---
 
-**Next:** [Ethics, Bias & Privacy](ethics-bias-privacy.md) – Responsible AI use →
+**Next:** [Ethics, Bias & Privacy](ethics-bias-privacy.md): Responsible AI use →

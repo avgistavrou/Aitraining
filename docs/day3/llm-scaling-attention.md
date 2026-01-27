@@ -353,34 +353,6 @@ Like using multiple characterization techniques (SEM + XRD + DSC) to get a compl
 
 ---
 
-## Quick Check: Do You Understand?
-
-!!! question "Test Your Understanding"
-    **1.** What does the attention mechanism do?
-    
-    a) Makes the model bigger  
-    b) Assigns importance weights to surrounding words for context  
-    c) Stores facts in a database  
-    d) Speeds up processing
-    
-    **2.** Why do we say LLMs don't "know" facts?
-    
-    a) They have bad memory  
-    b) They generate based on statistical patterns, not retrieval  
-    c) They're not smart enough  
-    d) They refuse to share information
-    
-    **3.** When processing "The lead investigator supervised...", attention to which word helps disambiguate "lead"?
-    
-    a) "The"  
-    b) "investigator"  
-    c) "supervised"  
-    d) Both b and c
-    
-    **Answers:** 1-b, 2-b, 3-d
-
----
-
 ## Summary: From Maps to Navigation
 
 ```
@@ -392,6 +364,7 @@ Reality: Pattern matching in high-dimensional probability space
 ```
 
 **You now understand:** 
+
 - What "Large" means (scale + parameters)
 - How attention enables context
 - Why it feels like understanding (but isn't)
@@ -399,4 +372,4 @@ Reality: Pattern matching in high-dimensional probability space
 
 ---
 
-**Next:** [Hallucination Prevention](hallucination-prevention.md) – Why models fabricate and how to stop them →
+**Next:** [Hallucination Prevention](hallucination-prevention.md): Why models fabricate and how to stop them →
