@@ -129,6 +129,11 @@ Energy costs of AI deployment
 
 ---
 
+### Ethics & Bias
+
+**Privacy and Security:**
+- [ICO Guide to AI and Data Protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/)
+
 
 ### Algorithmic Justice League
 
@@ -205,7 +210,6 @@ AI is rapidly evolving. To stay up-to-date:
 Found a broken link? Have a resource to suggest?
 
 
-
 ---
 
-**Next:** [Course Summary](../summary.md) – Key takeaways and next steps →
+**Next:** [Course Summary](../summary.md)  Key takeaways and next steps →
