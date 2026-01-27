@@ -1,6 +1,15 @@
 # Golden Prompts Library
 
 Pre-tested, high-quality prompts for common materials science tasks. Copy, customise, and use.
+---
+
+## Usage Tips
+
+1. **Copy the full prompt** including structure
+2. **Replace `[VARIABLES]`** with your specific information
+3. **Adjust constraints** based on your specific needs
+4. **Test once** in sandbox, then save successful version as template
+5. **Share** effective prompts with team
 
 ---
 
@@ -490,17 +499,232 @@ Tone: Friendly, encouraging, patient (good mentor voice)
 
 ---
 
-## Usage Tips
+## Python Code Generation for Materials Science
 
-1. **Copy the full prompt** including structure
-2. **Replace `[VARIABLES]`** with your specific information
-3. **Adjust constraints** based on your specific needs
-4. **Test once** in sandbox, then save successful version as template
-5. **Version control** your customised prompts (GitHub, notes app)
-6. **Share** effective prompts with team
+### Template 1: Data Analysis & Visualization
+
+```
+[A] Audience: R&D scientists who will use this code for routine data analysis 
+tasks. Code must be self-documenting and easy to maintain.
+
+[U] User Persona: Act as a Senior Data Scientist specializing in materials 
+testing analysis, with expertise in Python (pandas, numpy, matplotlib, scipy), 
+statistical analysis, and scientific data visualization.
+
+[T] Task: Create a Python function that {SPECIFIC_TASK_DESCRIPTION}.
+
+Input data format: {INPUT_FORMAT}
+Expected output: {OUTPUT_DESCRIPTION}
+
+[O] Output requirements:
+1. Complete Python function with type hints (PEP 484)
+2. Comprehensive docstring (Google style) including:
+   - Function purpose
+   - Args with types and descriptions
+   - Returns with type and description
+   - Raises for all exceptions
+   - Example usage
+3. Inline comments explaining complex logic
+4. Error handling for edge cases:
+   - Missing data points
+   - Invalid input formats
+   - Division by zero / mathematical errors
+   - File I/O errors (if applicable)
+5. Unit test examples (pytest format)
+
+[M] Method:
+- Follow PEP 8 style guidelines strictly
+- Use vectorized operations (numpy/pandas) instead of explicit loops
+- Implement proper data validation at function entry
+- Use descriptive variable names (e.g., stress_values, strain_data)
+- Optimize for performance using pandas.DataFrame methods
+- Include type checking for numpy arrays and pandas DataFrames
+
+[A] Assumptions/Constraints:
+- Code must handle missing data gracefully (flag or interpolate, never crash)
+- If {CRITICAL_PARAMETER} is not provided, raise ValueError with clear message
+- All numerical outputs must include uncertainty quantification where applicable
+- Visualization code must use colorblind-friendly palettes
+- For file operations: validate paths exist before reading/writing
+- Statistical calculations must report confidence intervals or p-values
+- Do NOT hardcode file paths or magic numbers (use function parameters/constants)
+
+[T] Tone: Professional, production-ready code suitable for peer review and 
+version control. Prioritize clarity and maintainability over cleverness.
+```
+
+**Variables to customise:**
+- `{SPECIFIC_TASK_DESCRIPTION}`: e.g., "analyses stress-strain curves from tensile testing and calculates Young's modulus, tensile strength, and elongation at break"
+- `{INPUT_FORMAT}`: e.g., "CSV file with columns: Strain (%), Stress (MPa)" or "numpy array of shape (n_samples, 2)"
+- `{OUTPUT_DESCRIPTION}`: e.g., "Dictionary containing calculated properties + matplotlib figure object"
+- `{CRITICAL_PARAMETER}`: e.g., "strain range for modulus calculation"
+
+**Example usage:**
+```
+Task: Create a Python function that analyses stress-strain curves from 
+tensile testing (CSV input) and calculates Young's modulus, tensile 
+strength, and elongation at break. Include automated outlier detection.
+
+Input data format: CSV file with columns [Strain (%), Stress (MPa)]
+Expected output: Dictionary with {modulus, tensile_strength, elongation, 
+quality_flag} + matplotlib figure showing curve with linear fit region
+```
 
 ---
 
+### Template 2: Laboratory Automation Scripts
+
+```
+[A] Audience: Lab technicians and researchers who will run this script 
+regularly as part of routine workflows. Must be robust and idiot-proof.
+
+[U] User Persona: Act as a Laboratory Automation Engineer with expertise 
+in Python scripting, file I/O, batch processing, data validation, and 
+scientific data formatting standards.
+
+[T] Task: Create a Python script that automates {AUTOMATION_TASK}.
+
+Processing requirements:
+- Input source: {INPUT_SOURCE}
+- Batch size: {BATCH_SIZE}
+- Output destination: {OUTPUT_DESTINATION}
+
+[O] Output requirements:
+1. Standalone Python script (.py file) with CLI argument parsing (argparse)
+2. Main function with clear entry point and execution flow
+3. Logging to both console and file ({SCRIPT_NAME}.log) with timestamps
+4. Progress indicators for batch operations (using tqdm)
+5. Comprehensive error handling with user-friendly messages
+6. Summary report generated at completion (successes, failures, warnings)
+7. Configuration section at top of script for easy customization
+8. Requirements.txt file listing all dependencies
+
+[M] Method:
+- Use pathlib.Path for all file operations (cross-platform compatibility)
+- Implement try-except blocks for all I/O and parsing operations
+- Use context managers (with statements) for file handling
+- Validate all inputs before processing (file existence, format, permissions)
+- Create backup copies before modifying existing files
+- Use logging module with levels: DEBUG, INFO, WARNING, ERROR
+- Implement early returns and guard clauses for invalid states
+
+[A] Assumptions/Constraints:
+- Script must handle partial failures (e.g., 8/10 files processed successfully)
+- Invalid input files should be logged but not crash the entire batch
+- Output directory must be created if it doesn't exist
+- If {SAFETY_CHECK} fails, halt execution and provide clear error message
+- All file writes must be atomic (write to temp, then rename)
+- Script must be idempotent (safe to run multiple times on same data)
+- Include --dry-run flag to preview changes without executing
+- Do NOT process files matching patterns: {EXCLUSION_PATTERNS}
+
+[T] Tone: Production-grade automation code suitable for deployment in 
+laboratory environment. Prioritize reliability and clear error reporting.
+```
+
+**Variables to customise:**
+- `{AUTOMATION_TASK}`: e.g., "converts informal lab notebook entries (Word/PDF) to standardised synthesis protocol templates (JSON)"
+- `{INPUT_SOURCE}`: e.g., "Directory containing .docx files"
+- `{BATCH_SIZE}`: e.g., "Process up to 50 files per run"
+- `{OUTPUT_DESTINATION}`: e.g., "output/ directory with dated subdirectories"
+- `{SCRIPT_NAME}`: e.g., "protocol_formatter"
+- `{SAFETY_CHECK}`: e.g., "file size exceeds 10MB"
+- `{EXCLUSION_PATTERNS}`: e.g., "*.tmp, *_backup.*, confidential_*"
+
+**Example usage:**
+```
+Task: Create a Python script that automates the extraction of synthesis 
+parameters from SEM image metadata (EXIF tags) and organizes them into a 
+searchable CSV database with columns: [Date, Sample_ID, Voltage_kV, 
+Magnification, Operator, Filename].
+
+Input source: Directory tree containing .tif SEM images
+Output: Single consolidated CSV + error log for images with missing metadata
+```
+
+---
+
+### Template 3: Computational Modeling & Property Prediction
+
+```
+[A] Audience: Computational materials scientists and researchers who will 
+integrate this code into larger simulation pipelines or Jupyter notebooks.
+
+[U] User Persona: Act as a Computational Materials Scientist with expertise 
+in Python scientific computing (numpy, scipy, scikit-learn), numerical methods, 
+optimization algorithms, and materials property modeling.
+
+[T] Task: Develop a Python function that {COMPUTATIONAL_TASK}.
+
+Scientific requirements:
+- Physical constraints: {PHYSICAL_CONSTRAINTS}
+- Convergence criteria: {CONVERGENCE_CRITERIA}
+- Expected computational complexity: {COMPLEXITY}
+
+[O] Output requirements:
+1. Modular function design with clear separation of concerns:
+   - Core algorithm function (pure computation)
+   - Validation function (input checking)
+   - Wrapper function (user-facing interface)
+2. Type hints for all function signatures (numpy.ndarray, float, etc.)
+3. Comprehensive docstring with mathematical formulation:
+   - LaTeX equations in docstring (for Jupyter rendering)
+   - Physical meaning of all parameters
+   - Units for all dimensional quantities
+   - References to source papers/textbooks
+4. Vectorized operations using numpy (avoid Python loops)
+5. Performance optimization notes as comments
+6. Test cases with known analytical solutions for validation
+7. Visualization helper function for debugging/interpretation
+
+[M] Method:
+- Use numpy for all array operations; scipy for optimization/integration
+- Implement numerical stability checks (condition numbers, convergence monitoring)
+- Use appropriate precision (float64 for stability-critical calculations)
+- Leverage scipy.optimize for fitting/minimization tasks
+- Cache expensive computations where appropriate (functools.lru_cache)
+- Profile performance-critical sections and document bottlenecks
+- Follow functional programming patterns (pure functions, no side effects)
+
+[A] Assumptions/Constraints:
+- Input arrays must satisfy: {INPUT_VALIDATION_RULES}
+- If convergence fails after {MAX_ITERATIONS} iterations, raise ConvergenceError
+- Physical constraints must be enforced: {PHYSICS_CHECKS}
+- Numerical precision tolerance: {TOLERANCE}
+- Do NOT use machine learning unless {ML_JUSTIFICATION}
+- Results must be deterministic (set random seeds if stochastic methods used)
+- Include warning if extrapolating beyond training/calibration data range
+- Document all assumptions in docstring (e.g., isothermal conditions, linear elasticity)
+
+[T] Tone: Research-grade scientific code suitable for publication supplementary 
+materials. Balance performance optimization with code readability.
+```
+
+**Variables to customise:**
+- `{COMPUTATIONAL_TASK}`: e.g., "predicts glass transition temperature (Tg) of polymer blends using Fox equation with composition-dependent parameters"
+- `{PHYSICAL_CONSTRAINTS}`: e.g., "Tg must be positive Kelvin, mass fractions sum to 1.0"
+- `{CONVERGENCE_CRITERIA}`: e.g., "Relative error < 1e-6 or absolute change < 0.01 K"
+- `{COMPLEXITY}`: e.g., "O(n) for n components"
+- `{INPUT_VALIDATION_RULES}`: e.g., "All concentrations 0 <= c <= 1, sum(c) = 1.0 ± 1e-10"
+- `{MAX_ITERATIONS}`: e.g., "1000"
+- `{PHYSICS_CHECKS}`: e.g., "Check Tg > 0 K, modulus > 0 Pa"
+- `{TOLERANCE}`: e.g., "1e-8 for iterative solvers"
+- `{ML_JUSTIFICATION}`: e.g., "training dataset >1000 samples and validated R² > 0.95"
+
+**Example usage:**
+```
+Task: Develop a Python function that calculates the effective thermal 
+conductivity of a two-phase nanocomposite using the Maxwell-Garnett model, 
+accounting for interfacial thermal resistance (Kapitza resistance).
+
+Input: Volume fraction (0-0.3), matrix conductivity (W/m·K), filler 
+conductivity (W/m·K), Kapitza resistance (m²·K/W)
+
+Output: Effective thermal conductivity + sensitivity analysis showing 
+contribution of each parameter
+```
+
+---
 ## Customisation Guidelines
 
 **When adapting golden prompts:**

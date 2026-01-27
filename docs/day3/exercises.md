@@ -85,6 +85,7 @@ Output needed: 3-page strategic memo for executive team
 ```
 
 **Your decision:**
+
 - [ ] NLM (BERT-based)
 - [ ] Small LLM (Llama 8B)
 - [ ] Medium LLM (Llama 70B)
@@ -104,6 +105,7 @@ Output needed: CSV with [DOI, Relevance Score, Brief Note]
 ```
 
 **Your decision:**
+
 - [ ] NLM (SciBERT classifier)
 - [ ] Small LLM (Llama 8B)
 - [ ] Large LLM (GPT-4)
@@ -271,54 +273,7 @@ Query 12: "What are best practices for PLA/graphene electrospinning?"
 
 ---
 
-## Exercise 4: Provider Comparison
-
-### Scenario
-
-You need to process 1,000 literature reviews per year. Compare environmental impact across providers.
-
-### Provider Options
-
-| Provider | Model | Renewable Energy % | Water Intensity | Carbon Intensity |
-|----------|-------|-------------------|----------------|------------------|
-| Google (Gemini) | Gemini Pro | 64% | Medium | Low |
-| Microsoft (Copilot) | GPT-4 | 70% | Medium | Low |
-| OpenAI (ChatGPT) | GPT-4 | 70% (via Azure) | Medium | Low |
-| Local (Sandbox) | Llama 3.2 3B | Depends on your grid | Very Low | Depends |
-
-**Your local grid (UK average):** ~30% renewable
-
----
-
-### Calculate Impact
-
-**Assumptions:**
-- Each review: ~2,000 tokens
-- Annual tokens: 2,000 × 1,000 = 2,000,000
-
-**Cloud provider (70% renewable):**
-- CO₂: 2,000,000 × 0.005g × 0.3 (fossil fuel portion) = 3,000 g = 3 kg
-- Water: 2,000,000 × 0.1mL = 200,000 mL = 200 L
-
-**Local (UK grid, 30% renewable, smaller model):**
-- CO₂: 2,000,000 × 0.001g (smaller model) × 0.7 (fossil fuel portion) = 1,400 g = 1.4 kg
-- Water: Minimal (personal device cooling)
-
----
-
-### Your Decision
-
-**Best provider for this use case:** ___________
-
-**Justification:** ___________
-
-**Expected annual savings vs. worst option:** ___________
-
-**Time:** 10 minutes
-
----
-
-## Exercise 5: Batch Processing Design
+## Exercise 4: Batch Processing Design
 
 ### Scenario
 
@@ -365,7 +320,7 @@ You have 20 synthesis protocols to format into standardized templates.
 
 ---
 
-## Exercise 6: Template Creation
+## Exercise 5: Template Creation
 
 ### Task
 

@@ -58,15 +58,22 @@ When answered publicly on FAQ page, questions are:
 
 **Completed the training?** Please help us improve by sharing your feedback!
 
-**📋 Participant Feedback Form:** [https://forms.gle/dhMvBNmVDPnBbRYM6](https://forms.gle/dhMvBNmVDPnBbRYM6)
+**📋 Participant Feedback Form:** 
+
+<div class="ama-form">
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmByTuJ9zPJ-VjZY7eDP7Fcs0f2oAJWtVpGlzfbX_RVbS_Sw/viewform?embedded=true" width="640" height="2233" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+</div>
 
 Your anonymous responses help us:
+
 - Refine the curriculum and materials
 - Improve future delivery
 - Measure training effectiveness
 - Identify areas for enhancement
 
-**Time required:** 1-2 minutes
+**Time required:** ~1 minutes
 
 ---
 
