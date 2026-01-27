@@ -97,142 +97,6 @@ Congratulations! You've completed the AmaDema AI Training Programme.
 
 ---
 
-## Immediate Next Steps
-
-### This Week (Days 1-7)
-
-**Monday-Tuesday: Template Creation**
-- [ ] Identify your 5 most common AI tasks
-- [ ] Create templates for each
-- [ ] Test templates with real work
-- [ ] Share with team
-
-**Wednesday-Thursday: Optimization**
-- [ ] Track AI usage for 2 days
-- [ ] Calculate current footprint
-- [ ] Identify 3 optimization opportunities
-- [ ] Implement improvements
-
-**Friday: Review & Share**
-- [ ] Measure efficiency gains
-- [ ] Document successful approaches
-- [ ] Share best practices with colleague
-- [ ] Plan next week's focus
-
----
-
-### This Month (Weeks 2-4)
-
-**Week 2: Build Habits**
-- Daily: Use optimization checklist before each query
-- Track: First-shot success rate
-- Goal: Achieve 60%+ first-shot success
-
-**Week 3: Expand Templates**
-- Target: 10 total templates
-- Focus: Recurring weekly tasks
-- Measure: Time saved per template
-
-**Week 4: Team Integration**
-- Share template library with team
-- Host 30-minute knowledge sharing session
-- Establish team optimization challenges
-- Create shared resource library
-
----
-
-### This Quarter (Months 2-3)
-
-**Build Expertise:**
-- [ ] Achieve 70%+ first-shot success rate
-- [ ] Reduce token usage by 60%+
-- [ ] Create 15+ production templates
-- [ ] Document case studies
-
-**Expand Impact:**
-- [ ] Train 2-3 colleagues informally
-- [ ] Establish team-wide practices
-- [ ] Track collective environmental savings
-- [ ] Share success stories
-
-**Deepen Skills:**
-- [ ] Experiment with RAG implementation
-- [ ] Explore fine-tuning for specialized tasks
-- [ ] Test advanced optimization techniques
-- [ ] Contribute to prompt library
-
----
-
-## Certification
-
-### Requirements
-
-To earn AmaDema AI Efficiency Certification:
-
-1. **Complete all exercises** from Days 1-4
-2. **Submit optimized workflow** from real work showing:
-   - 50%+ efficiency improvement
-   - Complete framework application
-   - Privacy compliance
-   - Bias mitigation
-
-3. **Create 3 templates** for your common tasks
-
-4. **Pass assessment:**
-   - Framework selection quiz
-   - Bias detection challenge
-   - Privacy scenario evaluation
-
----
-
-### Certification Benefits
-
-✅ **Recognition** as AmaDema AI expert  
-✅ **Authority** to train new employees  
-✅ **Priority access** to advanced AI tools/resources  
-✅ **Eligibility** for AI optimization initiatives
-
-**To apply:** Submit materials to [instructor email]
-
----
-
-## Ongoing Learning
-
-### Monthly Practice
-
-**Track metrics:**
-- First-shot success rate
-- Average tokens per task
-- Time savings vs. baseline
-- Environmental footprint
-
-**Review and adjust:**
-- What's working well?
-- What needs improvement?
-- New optimization opportunities?
-- Template library gaps?
-
-**Share and learn:**
-- Team knowledge sharing sessions
-- Case study documentation
-- Best practice updates
-- Collective problem-solving
-
----
-
-### Quarterly Deep Dives
-
-**Advanced topics to explore:**
-
-**Q1:** RAG implementation for document-heavy workflows
-
-**Q2:** Fine-tuning small models for specialized tasks
-
-**Q3:** Building team-wide optimization culture
-
-**Q4:** Advanced prompt engineering techniques
-
----
 
 ### External Resources
 
@@ -251,47 +115,6 @@ To earn AmaDema AI Efficiency Certification:
 
 ---
 
-## Team Integration
-
-### Establish Team Practices
-
-**Weekly:**
-- [ ] Share "prompt of the week"
-- [ ] Quick wins roundup (5 min standup)
-- [ ] Collaborative troubleshooting
-
-**Monthly:**
-- [ ] Team optimization challenge
-- [ ] Template library review
-- [ ] Collective impact measurement
-- [ ] Knowledge sharing session (30 min)
-
-**Quarterly:**
-- [ ] Team efficiency audit
-- [ ] Best practices documentation
-- [ ] Training for new members
-- [ ] Celebration of achievements
-
----
-
-### Recognition and Motivation
-
-**Create friendly competition:**
-- "Most Optimized Workflow" award
-- "Green AI Champion" badge
-- "Template Master" recognition
-
-**Track collective impact:**
-- Team-wide token reduction
-- Total time saved
-- Environmental savings
-
-**Celebrate wins:**
-- Share success stories
-- Document case studies
-- Recognize innovators
-
----
 
 ## Your Commitment
 
@@ -305,9 +128,6 @@ As an AmaDema AI practitioner, I commit to:
 - [ ] **Privacy:** Protect sensitive data
 - [ ] **Learning:** Continue developing expertise
 - [ ] **Sharing:** Help colleagues succeed
-
-**Signature:** ___________________  
-**Date:** ___________________
 
 ---
 
@@ -332,22 +152,13 @@ As an AmaDema AI practitioner, I commit to:
 Your scientific knowledge, critical thinking, and domain expertise are irreplaceable. AI amplifies your capabilities when used wisely.
 
 **The best AI practitioners are those who:**
+
 - Think before they prompt
 - Verify before they trust
 - Optimize as they work
 - Share what they learn
 
 **You're now equipped to be one of them.**
-
----
-
-## Stay Connected
-
-**Questions or want to share success stories?**
-
-- **Internal:** [AmaDema AI channel/email]
-- **Instructor:** [Contact info]
-- **Resources:** This website remains available as reference
 
 ---
 
@@ -364,19 +175,6 @@ Your scientific knowledge, critical thinking, and domain expertise are irreplace
 **Then set another for 3 months, 6 months, 1 year.**
 
 **Track your journey. The compound returns are remarkable.**
-
----
-
-## Final Exercise
-
-**Before you leave:**
-
-1. **Identify one AI task** you'll do this week
-2. **Plan your approach** using frameworks
-3. **Commit to tracking** the results
-4. **Share with a colleague** for accountability
-
-**You're ready. Go build something amazing.**
 
 ---
 

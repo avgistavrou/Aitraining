@@ -242,4 +242,4 @@ code generation, classification)  |  strategic analysis, proposals)
 
 ---
 
-**💾 Download:** [PDF version of cheat sheet](../assets/AmaDema_AI_Cheat_Sheet.pdf) *(to be generated)*
+**💾 Download:** [PDF version of cheat sheet](../assets/the_prompt_engineering_cheat_sheet.pdf) (by Maximiliian Vogel)

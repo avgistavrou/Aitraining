@@ -444,8 +444,7 @@ Before each AI interaction, verify:
 - *Algorithms of Oppression* by Safiya Noble
 
 **Privacy and Security:**
-- [ICO Guide to AI and Data Protection](https://ico.org.uk/for-organisations/guide-to-data-protection/key-dp-themes/guidance-on-ai-and-data-protection/)
-- [GDPR compliance for AI](https://gdpr.eu/ai/)
+- [ICO Guide to AI and Data Protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/)
 
 ---
 

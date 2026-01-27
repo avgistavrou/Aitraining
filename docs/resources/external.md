@@ -120,28 +120,15 @@ Brown et al. (GPT-3 paper)
 ### Environmental Impact Research
 
 **"Making AI Less Thirsty" (2023)**  
-Li et al. - Water footprint of AI models  
-*See course materials folder*
+Li et al. Water footprint of AI models  
+[https://arxiv.org/abs/2304.03271](https://arxiv.org/abs/2304.03271)
 
 **"Power Hungry Processing" (2024)**  
 Energy costs of AI deployment  
-*See course materials folder*
+[https://arxiv.org/abs/2311.16863](https://arxiv.org/abs/2311.16863)
 
 ---
 
-### Prompt Engineering Research
-
-**"Meta-Prompting for AI Systems"**  
-Advanced prompting techniques  
-*See course materials folder*
-
-**"Prompt Design and Engineering: Introduction and Advanced Methods"**  
-Comprehensive academic perspective  
-*See course materials folder*
-
----
-
-## Ethics & Responsible AI
 
 ### Algorithmic Justice League
 
@@ -150,36 +137,6 @@ Research and advocacy on bias in AI
 
 ---
 
-### AI Now Institute
-
-**Website:** [https://ainowinstitute.org/](https://ainowinstitute.org/)  
-Research on social implications of AI
-
-
----
-
-## Materials Science Specific
-
-### ChemBERT
-
-**Model:** [https://huggingface.co/DeepChem/ChemBERTa-77M-MLM](https://huggingface.co/DeepChem/ChemBERTa-77M-MLM)  
-NLM trained on chemical data
-
----
-
-### MatSciBERT
-
-**Model:** [https://huggingface.co/m3rg-iitd/matscibert](https://huggingface.co/m3rg-iitd/matscibert)  
-BERT model fine-tuned on materials science literature
-
----
-
-### SciBERT
-
-**Model:** [https://huggingface.co/allenai/scibert_scivocab_uncased](https://huggingface.co/allenai/scibert_scivocab_uncased)  
-BERT trained on scientific papers
-
----
 
 ## Community & Discussion
 
@@ -211,19 +168,6 @@ Weekly AI news and insights
 **URL:** [https://jack-clark.net/](https://jack-clark.net/)  
 Weekly newsletter on AI developments
 
----
-
-## Documentation Referenced in This Course
-
-All documents in `General AI Training/` folder:
-
-- Anatomy of a ChatGPT Prompt (visual guide)
-- Inclusive Prompt Engineering for LLMs (framework paper)
-- Making AI Less Thirsty (environmental impact study)
-- Meta-Prompting for AI Systems (advanced techniques)
-- Power Hungry Processing (energy consumption analysis)
-- Prompt Design and Engineering (comprehensive guide)
-- The Prompt Engineering Cheat Sheet (quick reference)
 
 ---
 
