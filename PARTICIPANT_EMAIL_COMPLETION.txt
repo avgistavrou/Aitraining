@@ -1,0 +1,20 @@
+Subject: Thank You for Completing the AmaDema AI Training Programme! 🎓
+
+Dear [Participant Name],
+
+Congratulations on completing the four-day AmaDema AI Training Programme! It's been a genuine pleasure working with you over the past week. Watching you progress from foundational prompt engineering to advanced conversational learning techniques has been incredibly rewarding. I hope you now feel more confident and empowered to leverage AI tools safely and effectively in your materials science research.
+
+All training materials remain available to you at any time through our website at https://avgistavrou.github.io/Aitraining/. This includes the complete course content for all four days, the Golden Prompts Library for quick-start templates (https://avgistavrou.github.io/Aitraining/resources/golden-prompts/), cheat sheets and reference materials, the FAQ section, and external resources and recommended tools. Feel free to revisit any section whenever you need a refresher or want to explore topics in more depth—the site is your permanent reference companion.
+
+Your feedback is invaluable for improving this programme. Please take 5 minutes to complete our course evaluation questionnaire at https://docs.google.com/forms/d/e/1FAIpQLSdmByTuJ9zPJ-VjZY7eDP7Fcs0f2oAJWtVpGlzfbX_RVbS_Sw/viewform. Your responses are completely anonymous and will help us refine the curriculum and materials, improve future delivery, measure training effectiveness, and identify areas for enhancement. We'd ideally appreciate your feedback this week whilst the content is fresh in your mind, but the form remains open for as long as you need.
+
+If you have questions as you apply these techniques to your research, or encounter challenges with prompt engineering in practice, please don't hesitate to reach out. I'm here to support your continued learning journey. Remember the core principles: precision through structured frameworks (AUTOMAT, CO-STAR), security through the Red List Protocol, sustainability through Green AI practices, and innovation through intelligent automation. You're now equipped with the tools to harness AI responsibly and effectively, and I look forward to hearing about the impact these techniques have on your R&D work!
+
+Best wishes,
+
+[YOUR NAME]
+[YOUR TITLE]
+[YOUR EMAIL]
+[DEPARTMENT/INSTITUTION]
+
+P.S. — Don't forget to bookmark those Golden Prompts! They're ready-to-use templates designed specifically for materials science workflows. Happy prompting! ✨

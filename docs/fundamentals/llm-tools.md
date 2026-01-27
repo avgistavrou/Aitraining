@@ -17,6 +17,7 @@ When selecting an LLM, consider:
 **First Release:** March 2023
 
 **Strengths:**
+
 - Deep integration with Microsoft Office suite
 - Enterprise data protection options
 - Familiar interface for Office users
@@ -33,6 +34,7 @@ When selecting an LLM, consider:
 **First Release:** November 2022
 
 **Strengths:**
+
 - Conversational and intuitive
 - Excellent for general tasks
 - Strong coding assistance (Python, R, etc.)
@@ -49,6 +51,7 @@ When selecting an LLM, consider:
 **First Release:** March 2023
 
 **Strengths:**
+
 - "Helpful, harmless, honest" approach
 - Excellent for analysis and reasoning
 - Large context window (200K+ tokens)
@@ -65,6 +68,7 @@ When selecting an LLM, consider:
 **First Release:** December 2023
 
 **Strengths:**
+
 - Multimodal capabilities (text, images, code)
 - Integration with Google Workspace
 - Multiple model sizes available
@@ -81,6 +85,7 @@ When selecting an LLM, consider:
 **First Release:** July 2023
 
 **Strengths:**
+
 - Document-grounded AI (works with your sources)
 - Creates podcast-style audio summaries
 - Source-based research
@@ -97,6 +102,7 @@ When selecting an LLM, consider:
 **First Release:** February 2023
 
 **Strengths:**
+
 - **Open-source** and customisable
 - Strong performance across tasks
 - Can be run locally (air-gapped)
@@ -107,61 +113,13 @@ When selecting an LLM, consider:
 
 **Why we use this for the workshop:** Complete data privacy—your prompts never leave the room.
 
----
 
-## Comparison Table
-
-| Tool | Data Privacy | Cost | Materials Science Use |
-|------|-------------|------|----------------------|
-| **Microsoft Copilot** | Enterprise options | £££ | Literature synthesis, Office integration |
-| **ChatGPT** | Enterprise options | ££ | Protocol writing, code generation |
-| **Claude** | Strong protections | ££ | Analysis, research, long documents |
-| **Gemini** | Google infrastructure | ££ | Multimodal (images + text) |
-| **NotebookLM** | Source-based | £ | Literature review, audio summaries |
-| **Llama (local)** | **Complete** | Free* | **All sensitive R&D work** |
-
-*Free to use, but requires hardware investment
-
----
 
 ## Proper Attribution
 
 !!! warning "Transparency Requirement"
     When AI tools significantly contribute to your work, proper attribution is essential for maintaining transparency and ethical standards.
 
-**Example Attribution:**
 
-> "Initial drafts of this literature review were developed with assistance from Claude (Sonnet 4). All sources were independently verified, analysis was conducted by the author, and conclusions represent the author's professional judgment."
-
-### When to Attribute
-
-**Always attribute if AI:**
-- Drafted significant portions of text
-- Generated data analysis code
-- Structured arguments or frameworks
-- Created figures or visualisations
-
-**No attribution needed for:**
-- Spell-checking and grammar corrections
-- Simple formatting assistance
-- Single-sentence rephrasing
-
----
-
-## Tool Selection Framework
-
-For your daily work at AmaDema, use this decision tree:
-
-```
-Is the data sensitive or unpublished?
-├─ YES → Use local Llama sandbox (air-gapped)
-└─ NO → Is it a long document (>10 pages)?
-    ├─ YES → Use Claude or NotebookLM
-    └─ NO → Is it Office-based work?
-        ├─ YES → Use Microsoft Copilot
-        └─ NO → Use ChatGPT or Gemini
-```
-
----
 
 **Next:** [Context Matters](context-matters.md) – Learn why context is everything in prompt engineering →
