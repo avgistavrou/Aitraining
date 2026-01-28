@@ -32,21 +32,6 @@ A 4-day intensive workshop teaching:
 
 Visit: **https://avgistavrou.github.io/amadema-aitraining/**
 
-### Run Locally
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Serve locally
-mkdocs serve
-
-# Build static site
-mkdocs build
-```
-
-The site will be available at `http://127.0.0.1:8000`
-
 ## 🔬 Sandbox Environment
 
 The course includes a local AI sandbox using:
@@ -94,27 +79,9 @@ Course materials are proprietary and intended for AmaDema employees only.
 
 ---
 
-## 🛠️ Development
-
-### Project Structure
-
-```
-├── docs/                 # Markdown documentation
-│   ├── index.md
-│   ├── fundamentals/
-│   ├── day1-2/
-│   ├── day3-4/
-│   ├── conversational/
-│   ├── ethics/
-│   └── resources/
-├── mkdocs.yml           # MkDocs configuration
-├── requirements.txt     # Python dependencies
-└── .github/workflows/   # CI/CD automation
-```
-
 ### Contributing
 
-This is an internal training programme. For suggestions or corrections, contact Avgi Stavrou.
+This is an internal training programme. For suggestions or corrections, contact the instructor.
 
 ### Deployment
 
