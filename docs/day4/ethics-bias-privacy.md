@@ -346,6 +346,7 @@ For sensitive work:
 #### Intellectual Property
 
 **Key concerns:**
+
 - Sharing unpublished research may affect patent priority
 - Timestamp of AI interaction could count as "disclosure"
 - Trade secrets lose protection if disclosed
@@ -366,6 +367,7 @@ For sensitive work:
 ✅ **Full control:** You manage data lifecycle
 
 **Trade-offs:**
+
 - Requires local compute resources
 - Smaller models (but sufficient for most tasks)
 - One-time setup effort
@@ -389,11 +391,13 @@ For sensitive work:
 Before each AI interaction, verify:
 
 **Bias Check:**
+
 - [ ] Have I requested diverse perspectives?
 - [ ] Will I challenge stereotypical outputs?
 - [ ] Am I including underrepresented voices?
 
 **Privacy Check:**
+
 - [ ] Is this data already public?
 - [ ] Does it contain personal information?
 - [ ] Is it on the Red List?
@@ -403,12 +407,14 @@ Before each AI interaction, verify:
 - [ ] Have I sanitised as needed?
 
 **Environmental Check:**
+
 - [ ] Is AI necessary for this task?
 - [ ] Have I batched related queries?
 - [ ] Am I using the smallest model that meets quality needs?
 - [ ] Can I reuse existing outputs?
 
 **Quality Check:**
+
 - [ ] Will I verify critical claims?
 - [ ] Will I check citations?
 - [ ] Will I apply domain expertise to validation?
@@ -437,15 +443,9 @@ Before each AI interaction, verify:
 
 ## Further Reading
 
-**Bias and Fairness:**
-- [Algorithmic Justice League](https://www.ajl.org/)
-- [AI Now Institute Research](https://ainowinstitute.org/)
-- *Race After Technology* by Ruha Benjamin
-- *Algorithms of Oppression* by Safiya Noble
-
 **Privacy and Security:**
 - [ICO Guide to AI and Data Protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/)
 
 ---
 
-**Next:** [Day 4 Exercises](exercises.md) – Practice mastery & responsibility →
+**Next:** [Day 4 Exercises](exercises.md): Practice mastery & responsibility →

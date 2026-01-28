@@ -608,15 +608,14 @@ Probability ≠ Truth → Grounding techniques (keeping AI honest)
 
 ---
 
----
+**Congratulations!** You now understand AI better than most of users. You know:
 
-**Next:** [Day 4 Overview](../day4/overview.md): Mastery & Responsibility →
-
----
-
-**Congratulations!** You now understand AI better than 95% of users. You know:
 - How it works (words → coordinates → attention → probability)
 - Why it fails (pattern matching, not truth seeking)
 - How to fix it (grounding techniques, verification)
 
 **Use this knowledge responsibly.** 🚀
+
+---
+
+**Next:** [Day 4 Overview](../day4/overview.md): Mastery & Responsibility →

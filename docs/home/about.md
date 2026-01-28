@@ -84,20 +84,6 @@ Highly interactive sessions including:
 | **1-2** | Precision Engineering & Security | 3 hours | AUTOMAT/CO-STAR frameworks, Red List protocol, Hallucination Hunt |
 | **3-4** | Technical Architecture & Sustainability | 3 hours | NLM vs LLM, Green AI, Optimisation Challenge, Real data processing |
 
----
-
-## Use of AI in Course Development
-
-In alignment with our institutional principles of transparency, the following AI tools were used in the development of these materials:
-
-- **ChatGPT (GPT-4)** – Generation of synthetic datasets for exercises
-- **Claude (Sonnet 4)** – Content structuring, framework adaptation to materials science context
-- **Microsoft Copilot** – Document formatting and quality assurance
-
-
-All technical content has been independently verified, and AI-generated examples have been validated against materials science best practices.
-
----
 
 ## Support & Feedback
 

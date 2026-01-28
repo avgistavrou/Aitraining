@@ -11,107 +11,60 @@ When selecting an LLM, consider:
 
 ## Available Tools
 
-### Microsoft Copilot
 
-**Website:** [copilot.microsoft.com](https://copilot.microsoft.com)  
-**First Release:** March 2023
+### ChatGPT (OpenAI) 
 
-**Strengths:**
-
-- Deep integration with Microsoft Office suite
-- Enterprise data protection options
-- Familiar interface for Office users
-
-**Best for:** Document creation, email assistance, Office workflows, enterprise productivity
-
-**Considerations:** Enterprise versions offer better data protection; requires Microsoft 365 subscription
-
----
-
-### ChatGPT (OpenAI)
-
-**Website:** [chat.openai.com](https://chat.openai.com)  
+**Website:** [chat.openai.com](https://chatgpt.com/)
 **First Release:** November 2022
-
-**Strengths:**
-
-- Conversational and intuitive
-- Excellent for general tasks
-- Strong coding assistance (Python, R, etc.)
-
+**Strengths:** Conversational, good for general tasks, coding assistance
 **Best for:** Writing assistance, brainstorming, general Q&A, code generation
-
 **Considerations:** Data usage policies vary by version; enterprise versions available
 
 ---
 
-### Claude (Anthropic)
+### Claude (Anthropic) 
 
-**Website:** [claude.ai](https://claude.ai)  
+**Website:** [claude.ai](https://claude.ai/)
 **First Release:** March 2023
-
-**Strengths:**
-
-- "Helpful, harmless, honest" approach
-- Excellent for analysis and reasoning
-- Large context window (200K+ tokens)
-
+**Strengths:** Helpful, harmless, honest approach; excellent for analysis
 **Best for:** Analysis, research assistance, ethical reasoning, document processing
-
-**Considerations:** Strong focus on safety and accuracy; handles long documents well
+**Considerations:** Strong focus on safety and accuracy; large context window
 
 ---
 
-### Google Gemini
-
-**Website:** [gemini.google.com](https://gemini.google.com)  
+Google Gemini 
+**Website:** [gemini.google.com](https://gemini.google.com/app)
 **First Release:** December 2023
-
-**Strengths:**
-
-- Multimodal capabilities (text, images, code)
-- Integration with Google Workspace
-- Multiple model sizes available
-
+**Strengths:** Multimodal capabilities, integration with Google Workspace
 **Best for:** Research, document analysis, creative tasks, Google ecosystem integration
-
-**Considerations:** Various models (Nano, Pro, Ultra) with different capabilities
+**Considerations:** Various models available (Nano, Pro, Ultra) with different capabilities
 
 ---
 
-### Google NotebookLM
-
-**Website:** [notebooklm.google.com](https://notebooklm.google.com)  
+Google NotebookLM 
+**Website:** [notebooklm.google.com](https://notebooklm.google.com/)
 **First Release:** July 2023
-
-**Strengths:**
-
-- Document-grounded AI (works with your sources)
-- Creates podcast-style audio summaries
-- Source-based research
-
-**Best for:** Research analysis, document synthesis, creating audio overviews, literature review
-
-**Considerations:** Works exclusively with your uploaded sources; Plus version offers higher usage limits
+**Strengths:** Document-grounded AI, source-based research, podcast-style audio summaries
+**Best for:** Research analysis, document synthesis, creating audio overviews, academic work
+**Considerations:** Works with your uploaded sources; Plus version offers 5x higher usage limits
 
 ---
 
-### Meta Llama
+Meta Llama 
+**Website:**[llama.meta.com](https://www.llama.com/)
+First Release: February 2023
+**Strengths:** Open-source, customizable, strong performance
+**Best for:** Custom applications, on-premise deployment, research
+**Considerations:** Requires technical expertise; various sizes available (7B to 405B parameters)
 
-**Website:** [llama.meta.com](https://llama.meta.com)  
-**First Release:** February 2023
+---
 
-**Strengths:**
-
-- **Open-source** and customisable
-- Strong performance across tasks
-- Can be run locally (air-gapped)
-
-**Best for:** Custom applications, on-premise deployment, research, sensitive data processing
-
-**Considerations:** Requires technical expertise; various sizes available (8B to 405B parameters)
-
-**Why we use this for the workshop:** Complete data privacy—your prompts never leave the room.
+Perplexity AI 
+**Website:**[perplexity.ai](https://www.perplexity.ai/)
+First Release: August 2022
+**Strengths:** Real-time web search integration, source citations
+**Best for:** Research, fact-checking, current information retrieval
+**Considerations:** Excellent for staying current with latest information
 
 
 

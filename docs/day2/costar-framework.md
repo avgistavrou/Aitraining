@@ -417,4 +417,4 @@ rather than promotional
 
 ---
 
-**Next:** [Excercises](excercises.md) →
+**Next:** [Excercises](exercises.md) →

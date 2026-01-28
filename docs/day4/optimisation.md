@@ -87,7 +87,7 @@ Tone: Technical, objective, suitable for replication assessment
 
 **Result:** First attempt yields production-ready output
 
-**Savings:** 75% reduction in tokens and time
+**Savings:** Reduction in tokens and time
 
 ---
 
@@ -136,7 +136,7 @@ structure (Materials, Equipment, Procedure, Characterisation).
 [LAB NOTES]"
 ```
 
-**Savings:** 80% reduction in tokens, eliminated IP leakage risk
+**Savings:** Reduction in tokens, eliminated IP leakage risk
 
 ---
 
@@ -192,7 +192,7 @@ If ambiguous: mark 'Ambiguous [brief note]'"
 
 **Result:** Single query yields ready-to-use table
 
-**Savings:** 75% reduction in iterations
+**Savings:** Reduction in iterations
 
 ---
 
@@ -407,7 +407,7 @@ Instructions:
 4. Output only the new entries (I will append manually)
 ```
 
-**Savings:** 95% reduction in computational cost (5 vs 105 papers)
+**Savings:** Reduction in computational cost (5 vs 105 papers)
 
 ---
 

@@ -222,16 +222,13 @@ By completing this training, you can now demonstrate:
 🚫 **Red List:** [Security protocol](resources/red-list.md)  
 🔗 **External Resources:** [Further learning](resources/external.md)
 
-**Course repository:**  
-[github.com/avgistavrou/amadema-aitraining](https://github.com/avgistavrou/amadema-aitraining)
-
 ---
 
 ## Final Thoughts
 
 ### The Journey Continues
 
-**This training is not an endpoint—it's a beginning.**
+**This training is not an endpoint; it's a beginning.**
 
 AI technology evolves rapidly. Your frameworks and critical thinking skills are timeless, but specific tools and techniques will change.
 
@@ -272,7 +269,5 @@ You can:
 **Go forth and engineer intelligently. 🚀**
 
 ---
-
-**Questions?** Contact Avgi Stavrou 
 
 **Ready to start?** Revisit [Cheat Sheet](resources/cheat-sheet.md) and begin optimizing!

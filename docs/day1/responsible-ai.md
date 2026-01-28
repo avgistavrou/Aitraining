@@ -407,4 +407,4 @@ Is this data published or public?
 
 ---
 
-**Next:** [Day 1-2 Exercises](exercises.md): Put frameworks into practice →
+**Next:** [Day 1 Exercises](exercises.md): Put frameworks into practice →
