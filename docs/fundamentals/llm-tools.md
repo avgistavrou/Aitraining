@@ -70,7 +70,7 @@ Google NotebookLM
 
 Meta Llama 
 
-**Website:**[llama.meta.com](https://www.llama.com/)
+**Website:** [llama.meta.com](https://www.llama.com/)
 
 First Release: February 2023
 
@@ -84,7 +84,7 @@ First Release: February 2023
 
 Perplexity AI 
 
-**Website:**[perplexity.ai](https://www.perplexity.ai/)
+**Website:** [perplexity.ai](https://www.perplexity.ai/)
 
 First Release: August 2022
 
