@@ -82,6 +82,7 @@ nav:
   
   - Excel Macros Tutorial:
     - Overview: excel-macros/index.md
+    - Materials & Downloads: excel-macros/materials.md
     - 1. Introduction & Setup: excel-macros/01-introduction.md
     - 2. Why Macros?: excel-macros/02-why-macros.md
     - 3. Recording Your First Macro: excel-macros/03-recording-first-macro.md
