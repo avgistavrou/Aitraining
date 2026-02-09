@@ -1,6 +1,6 @@
 # Excel Macros & Buttons for Material Scientists
 
-Welcome to the Excel Macros automation tutorial! This comprehensive guide will teach you how to automate repetitive tasks in Excel using macros and buttons.
+Welcome to the Excel Macros automation tutorial! This guide will teach you how to automate repetitive tasks in Excel using macros and buttons.
 
 ## What You'll Learn
 
