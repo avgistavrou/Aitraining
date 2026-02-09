@@ -80,6 +80,19 @@ nav:
     - Exercises: day4/exercises.md
     - Wrap-Up: day4/wrap-up.md
   
+  - Excel Macros Tutorial:
+    - Overview: excel-macros/index.md
+    - 1. Introduction & Setup: excel-macros/01-introduction.md
+    - 2. Why Macros?: excel-macros/02-why-macros.md
+    - 3. Recording Your First Macro: excel-macros/03-recording-first-macro.md
+    - 4. Understanding VBA Code: excel-macros/04-understanding-vba.md
+    - 5. Exercise 1 - Format Data: excel-macros/05-exercise-1.md
+    - 6. Creating Buttons: excel-macros/06-creating-buttons.md
+    - 7. Real-World Examples: excel-macros/07-real-world-examples.md
+    - 8. Exercise 2 - Batch Processing: excel-macros/08-exercise-2.md
+    - 9. Tips & Best Practices: excel-macros/09-tips-best-practices.md
+    - 10. Q&A & Troubleshooting: excel-macros/10-qa.md
+  
   - Resources:
     - Accessing the Sandbox: resources/sandbox-access.md
     - Cheat Sheet: resources/cheat-sheet.md
