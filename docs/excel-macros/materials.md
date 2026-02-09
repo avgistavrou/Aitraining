@@ -11,7 +11,7 @@ Work through exercises with these files:
 | File | Description |
 |------|-------------|
 | [Tensile_Test_Sample.xlsx](Tensile_Test_Sample.xlsx) | Practice workbook with 7 specimen sheets and XRD samples for Exercise 1 & 2 |
-| [Exercise_Workbook.md](Exercise_Workbook.md) | Hands-on exercises with step-by-step instructions |
+| [Exercise_Workbook](Exercise_Workbook.md) | Hands-on exercises with step-by-step instructions |
 | [Exercise_Workbook.docx](Exercise_Workbook.docx) | Exercises in Word format (offline reference) |
 
 ---
@@ -36,14 +36,14 @@ Quick reference and solutions:
 
 | File | Description |
 |------|-------------|
-| [VBA_CheatSheet.md](VBA_CheatSheet.md) | Quick syntax reference with common operations and examples |
+| [VBA_CheatSheet](VBA_CheatSheet.md) | Quick syntax reference with common operations and examples |
 | [VBA_CheatSheet.docx](VBA_CheatSheet.docx) | Cheat sheet in Word format (offline reference) |
 
 ### Exercise Solutions
 
 | File | Description |
 |------|-------------|
-| [Exercise_Solutions.md](Exercise_Solutions.md) | Complete solutions with detailed explanations for all exercises |
+| [Exercise_Solutions](Exercise_Solutions.md) | Complete solutions with detailed explanations for all exercises |
 | [Exercise_Solutions.docx](Exercise_Solutions.docx) | Solutions in Word format (offline reference) |
 | [Exercise_Solutions.bas](Exercise_Solutions.bas) | Working VBA code for all exercises (import into VBA Editor) |
 
@@ -75,50 +75,6 @@ Use LLMs (ChatGPT, Claude, etc.) to generate advanced macros:
 3. Ask for VBA macros - the LLM will follow best practices automatically
 4. Example prompt: *"Create a macro to calculate yield stress from tensile test data in columns A-D"*
 
----
 
-## Download All Materials
-
-Want everything at once? Download the complete package:
-
-**Option 1: Individual files** - Click any file above to download
-
-**Option 2: Clone the repository**
-```bash
-git clone https://github.com/avgistavrou/Aitraining.git
-cd Aitraining/docs/excel-macros/
-```
-
----
-
-## File Organization
-
-Keep your files organized:
-
-```
-Excel_Macros_Workshop/
-├── Practice/
-│   └── Tensile_Test_Sample.xlsx
-├── Demos/
-│   ├── Macro_Examples_Structure_Fixed.xlsx
-│   └── Experiment1.txt
-├── Reference/
-│   ├── VBA_CheatSheet.docx
-│   ├── Exercise_Solutions.docx
-│   └── Exercise_Workbook.docx
-└── Code/
-    ├── Workshop_Macros.bas
-    ├── Exercise_Solutions.bas
-    ├── Create_Toolkit_Panel.bas
-    └── Import_Tensile_Batch.bas
-```
-
----
-
-## Need Help?
-
-- **Stuck on an exercise?** Check [Exercise Solutions](Exercise_Solutions.md)
-- **Code not working?** See [Q&A & Troubleshooting](10-qa.md)
-- **Need syntax help?** Use the [VBA Cheat Sheet](VBA_CheatSheet.md)
 
 [← Back to Tutorial Overview](index.md)
